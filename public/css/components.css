@@ -8,7 +8,7 @@ General reset
 /* Set default body */
 body {
   color: #5c6873;
-  font-family: "Microsoft YaHei";
+  font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu
   padding: 0px !important;
   margin: 0px !important;
   font-weight: 300;
