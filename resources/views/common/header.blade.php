@@ -44,21 +44,35 @@
                             </a>
                         </li>
                         <li class="c-menu-type-classic">
-                            <a href="{{url('about')}}" class="c-link dropdown-toggle">关于传承
+                            <a href="{{route('company')}}" class="c-link dropdown-toggle">关于传承
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                             <ul class="dropdown-menu c-menu-type-classic c-pull-left">
                                 <li class="dropdown-submenu">
-                                    <a href="{{url('company')}}">公司简介
+                                    <a href="{{route('company')}}">公司简介
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="{{url('concept')}}">投资理念
+                                    <a href="{{route('company')}}">核心优势
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                 </li>
-                                
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('team')}}">管理团队
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('company')}}">企业理念
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('history')}}">大事记
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
                                 
                                
                                 <li class="dropdown-submenu">
@@ -376,7 +390,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="javascript:;" class="c-link dropdown-toggle">社会责任
+                            <a href="{{route('social')}}" class="c-link dropdown-toggle">社会责任
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                             <!-- BEGIN: DESKTOP VERSION OF THE TAB MEGA MENU -->

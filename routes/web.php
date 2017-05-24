@@ -20,3 +20,5 @@ Route::get('/about/company','AboutController@index')->name('company');
 Route::get('/about/team','AboutController@team')->name('team');
 
 Route::get('/about/history','AboutController@history')->name('history');
+
+Route::get('/social','SocialController@index')->name('social');

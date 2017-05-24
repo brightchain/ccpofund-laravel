@@ -1,5 +1,5 @@
 @extends('common.layouts')
-@section('title','公司简介')
+@section('title','社会责任')
 @section('style')
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
@@ -30,41 +30,41 @@
     @stop
     @section('banner')
     <div class="c-subtitle c-fonts-uppercase c-fonts-bold c-bg-img-center" >
-    <img src="../img/c-bj.png" alt="Image-1" width="100%" height="auto">
-            </div>
+      <img src="../img/social.jpg" alt="Image-1" width="100%" height="auto">
+    </div>
+   
+            
     @stop
     @section('content')
     <div class="c-content-box  c-bg-white" style="padding-top: 45px;">
         <div class="container">
             <div class="row">
-               <div class="col-md-6">
-	               	<div class="row c-menu-left">
-	               	    <div class="c-menu-left-img">
-		               	    <span style="background-image: url(../img/home.png);"></span>
-							<a href="{{route('company')}}">关于传承</a>
-						</div>
-	               	    @section('menu-left')
-	               	    @show
-	               	</div>
-               </div>
-               <div class="col-md-6">
-               	<div class="row">
-               		<div class="c-menu-right">
-               			<span><a href="{{route('company')}}">公司简介</a></span>
-               			<span><a href="{{route('company')}}">核心优势</a></span>
-               			<span><a href="{{route('team')}}">管理团队</a></span>
-               			<span><a href="{{route('company')}}">企业理念</a></span>
-               			<span><a href="{{route('history')}}">大事记</a></span>
-               		</div>
-               	</div>
-              </div>
+                <div class="col-md-6">
+                   	<div class="row c-menu-left">
+                     	  <div class="c-menu-left-img">
+                            <span style="background-image: url(../img/home.png);"></span>
+                     	      <a href="{{route('company')}}">首页</a>
+                        </div>
+                     	  <div class="c-menu-left-img">
+                            <span style="background-image: url(../img/arrows.png);"></span>
+                            <a href="">社会责任</a>
+                        </div>
+                   	</div>
+                </div>
+                <div class="col-md-6">
+                   	<div class="row">
+                     		<div class="c-menu-right">
+                     	
+                     		</div>
+                   	</div>
+                </div>
             </div>
         </div>              
     </div>
     <div class="c-content-box c-bg-white" style="padding-top: 15px;">
         <div class="container" >
             <div class="col-md-8" >
-                <div class="row" style="border-top: 1px solid #c9caca;border-right: 1px solid #c9caca;">   
+                <div class="row" style="border-top: 1px solid #c9caca;">   
                     <div class="text-content">
                     	@section('text-content')
                     	@show
@@ -72,12 +72,12 @@
                 </div>
             </div>
             <div class="col-md-4" >
-	            <div class="row" style="border-top: 1px solid #c9caca;"> 
-	                <div class="case-img">
-		                <a href=""><img src="../img/case.png" alt=""  class="img-responsive "></a>
-		                <a href=""><img src="../img/fund.png" alt=""  class="img-responsive "></a>
-		                <a href=""><img src="../img/history.png" alt=""  class="img-responsive "></a>
-	                </div>
+                <div class="row" style="border-top: 1px solid #c9caca;"> 
+                    <div class="case-img" style="background-image: url('../img/social02.jpg');min-height: 1013px;">
+                        <p style="font-size: 12.5px;padding:35px 45px;">
+                           立于2014年10月20日，本基金会是由本公司创立、接受员工自愿入会的互助互济性组织，对特困员工实施救助，面向社会开展爱心捐助等活动的爱心救助、非营利性的企业公益性组织，配合社会基本医疗保险的，及时扶助患重大疾病患者家庭,因工残疾导致家庭突发性经济困难，秉承“一方有难多方支援”的传统美德，增强企业凝聚力和向心力。
+                        </p>
+                    </div>
                 </div>
             </div> 
         </div>       

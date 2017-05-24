@@ -6357,7 +6357,7 @@ h1 {
     padding: 10px 10px;
     text-align: center; }
 .text-content{
-  padding:45px 15px;
+  padding:45px 45px 45px 0;
 }
 .case-img{
   padding:45px 0;
