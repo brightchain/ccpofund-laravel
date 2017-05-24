@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/about/company','AboutController@index')->name('company');
+
+Route::get('/about/team','AboutController@team')->name('team');
