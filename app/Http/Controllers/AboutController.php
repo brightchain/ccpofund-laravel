@@ -17,4 +17,10 @@ class AboutController extends Controller
     {
     	return view('about.team');
     }
+
+    //大事记
+    public function history()
+    {
+        return view('about.history');
+    }
 }

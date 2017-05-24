@@ -50,11 +50,11 @@
                <div class="col-md-6">
                	<div class="row">
                		<div class="c-menu-right">
-               			<span><a href="">公司简介</a></span>
-               			<span><a href="">核心优势</a></span>
-               			<span><a href="">管理团队</a></span>
-               			<span><a href="">企业理念</a></span>
-               			<span><a href="">大记事</a></span>
+               			<span><a href="{{route('company')}}">公司简介</a></span>
+               			<span><a href="{{route('company')}}">核心优势</a></span>
+               			<span><a href="{{route('team')}}">管理团队</a></span>
+               			<span><a href="{{route('company')}}">企业理念</a></span>
+               			<span><a href="{{route('history')}}">大记事</a></span>
                		</div>
                	</div>
               </div>
