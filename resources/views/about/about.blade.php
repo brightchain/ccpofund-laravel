@@ -40,7 +40,7 @@
                <div class="col-md-6">
                	<div class="row c-menu-left">
                	    <div class="c-menu-left-img"><span style="background-image: url(../img/home.png);"></span>
-               	    <a href="">关于传承</a></div>
+               	    <a href="{{route('company')}}">关于传承</a></div>
                	    @section('menu-left')
                	    @show
                	    
