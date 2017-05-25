@@ -21,4 +21,7 @@ Route::get('/about/team','AboutController@team')->name('team');
 
 Route::get('/about/history','AboutController@history')->name('history');
 
-Route::get('/social','SocialController@index')->name('social');
+Route::get('/socials','SocialsController@index')->name('socials');
+
+Route::get('/socials/{id}','SocialsController@show');
+

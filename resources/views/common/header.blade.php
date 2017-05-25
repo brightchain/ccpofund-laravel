@@ -390,7 +390,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="{{route('social')}}" class="c-link dropdown-toggle">社会责任
+                            <a href="{{route('socials')}}" class="c-link dropdown-toggle">社会责任
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                             <!-- BEGIN: DESKTOP VERSION OF THE TAB MEGA MENU -->
