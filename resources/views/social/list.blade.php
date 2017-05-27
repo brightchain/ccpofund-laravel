@@ -45,7 +45,7 @@
                         </div>
                      	<div class="c-menu-left-img">
                             <span style="background-image: url(../img/arrows.png);"></span>
-                            <a href="">社会责任</a>
+                            <a href="{{route('socials')}}">社会责任</a>
                         </div>
                    	</div>
                 </div>
@@ -71,48 +71,18 @@
                                         <img src="../img/social03.jpg" alt="" class="img-responsive">
                                     </div>
                                     <div class="com-md-9">
-                                        <h3 class="c-social-date">2017-4-27</h3>
+                                        <h3 class="c-social-date"></h3>
                                         <a href="" class="c-social-title">
-                                            <h3 >涓滴之水成海洋，颗颗爱心变希望——湖北黄冈助学行捐赠仪式</h3>
+                                            <h3 >{{$socials->title}}</h3>
                                         </a>
                                         <p style="font-size: 12.5px;color: #727171">
-                                            2017年4月26日，深圳市传承爱心基金会携手深圳狮子会爱心人士,前往周畈小学开展湖北黄冈助学行捐赠仪式，参加仪式的深圳狮子会的爱心人士有：深圳狮子会上步服务队创会会长暨同致行（中国）地产顾问集团董事长王波狮兄，
+                                            {!!$socials->content!!}
                                             </p>
                                     </div>
                                 </div>
                             </li>
-                            <li style="padding: 20px 0;">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img src="../img/social03.jpg" alt="" class="img-responsive">
-                                    </div>
-                                    <div class="com-md-9">
-                                        <h3 class="c-social-date">2017-4-27</h3>
-                                        <a href="" class="c-social-title">
-                                            <h3 >涓滴之水成海洋，颗颗爱心变希望——湖北黄冈助学行捐赠仪式</h3>
-                                        </a>
-                                        <p style="font-size: 12.5px;color: #727171">
-                                            2017年4月26日，深圳市传承爱心基金会携手深圳狮子会爱心人士,前往周畈小学开展湖北黄冈助学行捐赠仪式，参加仪式的深圳狮子会的爱心人士有：深圳狮子会上步服务队创会会长暨同致行（中国）地产顾问集团董事长王波狮兄，
-                                            </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li style="padding: 20px 0;">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img src="../img/social03.jpg" alt="" class="img-responsive">
-                                    </div>
-                                    <div class="com-md-9">
-                                        <h3 class="c-social-date">2017-4-27</h3>
-                                        <a href="" class="c-social-title">
-                                            <h3>涓滴之水成海洋，颗颗爱心变希望——湖北黄冈助学行捐赠仪式</h3>
-                                        </a>
-                                        <p style="font-size: 12.5px;color: #727171">
-                                            2017年4月26日，深圳市传承爱心基金会携手深圳狮子会爱心人士,前往周畈小学开展湖北黄冈助学行捐赠仪式，参加仪式的深圳狮子会的爱心人士有：深圳狮子会上步服务队创会会长暨同致行（中国）地产顾问集团董事长王波狮兄，
-                                            </p>
-                                    </div>
-                                </div>
-                            </li>
+                           
+                            
                         </ul>
                     </div>
                 </div>

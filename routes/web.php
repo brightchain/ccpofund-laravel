@@ -25,3 +25,6 @@ Route::get('/socials','SocialsController@index')->name('socials');
 
 Route::get('/socials/{id}','SocialsController@show');
 
+
+
+Route::any('uploads', 'TestController@uploadImages');

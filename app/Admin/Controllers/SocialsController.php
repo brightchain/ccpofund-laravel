@@ -2,7 +2,7 @@
 
 namespace App\Admin\Controllers;
 
-use App\Social;
+use App\Model\Social;
 
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -24,8 +24,8 @@ class SocialsController extends Controller
     {
         return Admin::content(function (Content $content) {
 
-            $content->header('header');
-            $content->description('description');
+            $content->header('社会责任');
+            $content->description('列表');
 
             $content->body($this->grid());
         });
@@ -41,8 +41,8 @@ class SocialsController extends Controller
     {
         return Admin::content(function (Content $content) use ($id) {
 
-            $content->header('header');
-            $content->description('description');
+            $content->header('社会责任');
+            $content->description('列表');
 
             $content->body($this->form()->edit($id));
         });
@@ -57,8 +57,8 @@ class SocialsController extends Controller
     {
         return Admin::content(function (Content $content) {
 
-            $content->header('header');
-            $content->description('description');
+            $content->header('社会责任');
+            $content->description('列表');
 
             $content->body($this->form());
         });
@@ -72,7 +72,7 @@ class SocialsController extends Controller
     protected function grid()
     {
         return Admin::grid(Social::class, function (Grid $grid) {
-
+            $grid->model()->OrderBy('order')->orderBy('updated_at', 'DESC');
             $grid->id('ID')->sortable();
             $grid->title('标题');
             $grid->thumbnail('缩略图');
@@ -90,10 +90,12 @@ class SocialsController extends Controller
     protected function form()
     {
         return Admin::form(Social::class, function (Form $form) {
-
+          
             $form->display('id', 'ID');
             $form->text('title','标题');
-            $form->image('thumbnail')->uniqueName();
+            $form->image('thumbnail','缩略图');
+            $form->editor('content','内容');
+            $form->number('order','排序');
             $form->display('created_at', 'Created At');
             $form->display('updated_at', 'Updated At');
         });
