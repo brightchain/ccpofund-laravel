@@ -204,7 +204,9 @@ var App = function() {
             $(this).addClass('hover-initialized');
         });
     };
-
+  var imgresponsive = function() {
+        $('.c-text-content img').addClass('img-responsive center-block');
+    };
     // Handles Bootstrap Popovers
 
     // last popep popover
@@ -249,6 +251,20 @@ var App = function() {
         }
     };
 
+    //导航栏动态切换ACTIVE
+    var navActive= function() {  
+        $('.navbar-nav').children().each(function () {
+            var a = $(this).find('a:first');
+            
+            if ($(a).attr('href') === 'http://localhost'+location.pathname) {
+                $(this).addClass('c-active');
+            } else {
+                $(this).removeClass('c-active');
+            }
+       
+    })
+    }; 
+
     //* END:CORE HANDLERS *//
 
     return {
@@ -256,7 +272,7 @@ var App = function() {
         //main function to initiate the theme
         init: function() {
             //IMPORTANT!!!: Do not modify the core handlers call order.
-
+            navActive();
             //Core handlers
             handleHeight();
             this.addResizeHandler(handleHeight); // handle auto calculating height on window resize
@@ -273,7 +289,7 @@ var App = function() {
             handlePopovers(); // handles bootstrap popovers
             handleAccordions(); //handles accordions 
             handleModals(); // handle modals
-
+            imgresponsive();
             // Hacks
             handleFixInputPlaceholderForIE(); //IE9 & IE10 input placeholder issue fix
         },
@@ -297,7 +313,7 @@ var App = function() {
         runResizeHandlers: function() {
             _runResizeHandlers();
         },
-
+       
         // wrJangoer function to scroll(focus) to an element
         scrollTo: function(el, offeset) {
             var pos = (el && el.size() > 0) ? el.offset().top : 0;

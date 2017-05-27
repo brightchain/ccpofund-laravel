@@ -79,8 +79,9 @@
         <script>
             $(document).ready(function()
             {
-                App.init(); // init core    
+                App.init(); 
             });
+           // init core  
         </script>
         <!-- END: THEME SCRIPTS -->
         <!-- BEGIN: PAGE SCRIPTS -->
@@ -95,11 +96,11 @@
         <script src="../js/revolution.extension.parallax.min.js" type="text/javascript"></script>
         <!-- END: PAGE SCRIPTS -->
         <!-- END: LAYOUT/BASE/BOTTOM -->
-    <script>
+  <!--   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-64667612-1', 'themehats.com');
   ga('send', 'pageview');
-</script>
+</script> -->

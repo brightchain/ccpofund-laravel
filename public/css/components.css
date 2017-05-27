@@ -1060,6 +1060,11 @@ h1 {
 
 .c-bg-before-regular:before {
   background-color: #7f8c97 !important; }
+.c-title-center{
+  margin:0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 .c-bg-green {
   background-color: #32c5d2 !important; }

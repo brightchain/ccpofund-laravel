@@ -63,27 +63,19 @@
         <div class="container" >
             <div class="col-md-12" >
                 <div class="row" style="border-top: 1px solid #c9caca;">   
-                    <div class="text-content">
-                    	<ul class="social-ul">
-                            <li style="padding: 20px 0;">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img src="../img/social03.jpg" alt="" class="img-responsive">
-                                    </div>
-                                    <div class="com-md-9">
-                                        <h3 class="c-social-date"></h3>
-                                        <a href="" class="c-social-title">
-                                            <h3 >{{$socials->title}}</h3>
-                                        </a>
-                                        <p style="font-size: 12.5px;color: #727171">
-                                            {!!$socials->content!!}
-                                            </p>
-                                    </div>
-                                </div>
-                            </li>
-                           
+                    <div class="c-text-content">
+                        <div class="c-title-center">
+                            <h1>{{$socials->title}}</h1>
+                            <p>{{$socials->created_at}}</p>
+                        </div>
+                      
+                        <p style="font-size: 12.5px;color: #727171;text-align: center;">
+                         {!!$socials->content!!}</p>
+                                 
+                    </div>
                             
-                        </ul>
+                           
+                       
                     </div>
                 </div>
             </div>

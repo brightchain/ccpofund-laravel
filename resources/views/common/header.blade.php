@@ -43,7 +43,7 @@
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                         </li>
-                        <li class="c-menu-type-classic">
+                        <li >
                             <a href="{{route('company')}}" class="c-link dropdown-toggle">关于传承
                                 <span class="c-arrow c-toggler"></span>
                             </a>

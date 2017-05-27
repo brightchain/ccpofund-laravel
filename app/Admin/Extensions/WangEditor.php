@@ -33,6 +33,7 @@ class WangEditor extends Field
         };
     
         editor.create();
+        
 EOT;
         return parent::render();
 
