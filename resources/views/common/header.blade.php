@@ -64,7 +64,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="{{route('company')}}">企业理念
+                                    <a href="{{route('culture')}}">企业文化
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                 </li>
@@ -72,321 +72,59 @@
                                     <a href="{{route('history')}}">大事记
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
-                                </li>
-                                
-                               
-                                <li class="dropdown-submenu">
-                                    <a href="#">Mega Menu
-                                        <span class="c-arrow c-toggler"></span>
-                                    </a>
-                                    <ul class="dropdown-menu c-pull-right">
-                                        <li>
-                                            <a href="megamenu-light.html">Mega Menu - Light</a>
-                                        </li>
-                                        <li>
-                                            <a href="megamenu-dark.html">Mega Menu - Dark</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="page-extended-portfolio.html">Multi Level Menu
-                                        <span class="c-arrow c-toggler"></span>
-                                    </a>
-                                    <ul class="dropdown-menu c-pull-right">
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="#">Example Sub Menu
-                                                <span class="c-arrow c-toggler"></span>
-                                            </a>
-                                            <ul class="dropdown-menu c-pull-left">
-                                                <li>
-                                                    <a href="#">Example Link</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Example Link</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Example Link</a>
-                                                </li>
-                                                <li class="dropdown-submenu">
-                                                    <a href="#">Example Sub Menu
-                                                        <span class="c-arrow c-toggler"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu c-pull-left">
-                                                        <li>
-                                                            <a href="#">Example Link</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Example Link</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Example Link</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Example Link</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Example Link</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Example Link</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                                </li> 
                             </ul>
                         </li>
                         <li>
-                            <a href="javascript:;" class="c-link dropdown-toggle">基金管理
+                            <a href="{{route('funds')}}" class="c-link dropdown-toggle">基金管理
                                 <span class="c-arrow c-toggler"></span>
                             </a>
-                            <ul class="dropdown-menu c-menu-type-mega c-menu-type-fullwidth" style="min-width: auto">
-                                <li>
-                                    <ul class="dropdown-menu c-menu-type-inline">
-                                        <li>
-                                            <h3>Page Samples 1</h3>
-                                        </li>
-                                        <li>
-                                            <a href="page-about-1.html">About Us 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-about-2.html">About Us 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-about-3.html">About Us 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-about-4.html">About Us 4</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-team.html">Meet The Team</a>
-                                        </li>
-                                    </ul>
+                           <ul class="dropdown-menu c-menu-type-classic c-pull-left">
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('funds')}}">基金产品
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
                                 </li>
-                                <li>
-                                    <ul class="dropdown-menu c-menu-type-inline">
-                                        <li>
-                                            <h3>Page Samples 2</h3>
-                                        </li>
-                                        <li>
-                                            <a href="page-contact-1.html">Contact Us 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-contact-2.html">Contact Us 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-contact-3.html">Contact Us 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-faq.html">FAQ</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-faq-2.html">FAQ 2</a>
-                                        </li>
-                                    </ul>
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('issues')}}">基金发行
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
                                 </li>
-                                <li>
-                                    <ul class="dropdown-menu c-menu-type-inline">
-                                        <li>
-                                            <h3>Gallery Pages</h3>
-                                        </li>
-                                        <li>
-                                            <a href="page-product-launch.html">Product Launch</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-lightbox-gallery.html">Lightbox Gallery</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-fullwidth-gallery.html">Full Width Gallery</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-masonry-gallery.html">Masonry Gallery</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-index-gallery.html">Gallery Index</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul class="dropdown-menu c-menu-type-inline">
-                                        <li>
-                                            <h3>Portfolio Pages</h3>
-                                        </li>
-                                        <li>
-                                            <a href="page-4col-portfolio.html">4 Columns Portfolio</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-2col-portfolio.html">2 Columns Portfolio</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-masonry-portfolio.html">Masonry Portfolio</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-extended-portfolio.html">Extended Portfolio</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul class="dropdown-menu c-menu-type-inline">
-                                        <li>
-                                            <h3>Blog Pages</h3>
-                                        </li>
-                                        <li>
-                                            <a href="page-blog-list.html">Blog List View</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-blog-grid.html">Blog Grid View</a>
-                                        </li>
-                                        <li>
-                                            <a href="page-blog-post.html">Blog Single Post</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                              
                             </ul>
                         </li>
                         <li>
-                            <a href="javascript:;" class="c-link dropdown-toggle">投资运营
+                            <a href="{{route('cases')}}" class="c-link dropdown-toggle">投资运营
                                 <span class="c-arrow c-toggler"></span>
                             </a>
-                            <ul class="dropdown-menu c-menu-type-mega c-menu-type-fullwidth" style="min-width: auto">
-                                <li>
-                                    <ul class="dropdown-menu c-menu-type-inline">
-                                        <li>
-                                            <h3>Shop Pages 1</h3>
-                                        </li>
-                                        <li>
-                                            <a href="shop-home-1.html" target="_blank">Shop Home 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-home-2.html">Shop Home 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-home-3.html">Shop Home 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-home-4.html">Shop Home 4</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-home-5.html">Shop Home 5</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-home-6.html">Shop Home 6</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-home-7.html">Shop Home 7</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-home-8.html" target="_blank">Shop Home 8</a>
-                                        </li>
-                                    </ul>
+                             <ul class="dropdown-menu c-menu-type-classic c-pull-left">
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('cases')}}">成功案例
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
                                 </li>
-                                <li>
-                                    <ul class="dropdown-menu c-menu-type-inline">
-                                        <li>
-                                            <h3>Shop Pages 2</h3>
-                                        </li>
-                                        <li>
-                                            <a href="shop-product-list.html">Product List</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-product-grid.html">Product Grid</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-product-search.html">Product Search</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-product-details.html">Product Details 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-product-details-2.html">Product Details 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-product-details-3.html">Product Details 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-product-details-4.html">Product Details 4</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-product-comparison.html">Product Comparison</a>
-                                        </li>
-                                    </ul>
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('property')}}">存量物业并购
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>               
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('urban')}}">城市更新
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
                                 </li>
-                                <li>
-                                    <ul class="dropdown-menu c-menu-type-inline">
-                                        <li>
-                                            <h3>Shop Pages 3</h3>
-                                        </li>
-                                        <li>
-                                            <a href="shop-product-wishlist.html">Wish List</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-customer-account.html">Customer Login/Register</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-customer-dashboard.html">Customer Dashboard</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-order-history.html">Order History</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-order-history-2.html">Order History 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-cart.html">Shopping Cart</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-cart-empty.html">Shopping Cart(empty)</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-checkout.html">Checkout</a>
-                                        </li>
-                                    </ul>
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('issues')}}">资产管理
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
                                 </li>
-                                <li>
-                                    <ul class="dropdown-menu c-menu-type-inline">
-                                        <li>
-                                            <h3>Shop Pages 4</h3>
-                                        </li>
-                                        <li>
-                                            <a href="shop-checkout-complete.html">Checkout Complete</a>
-                                        </li>
-                                        <li>
-                                            <a href="component-shop-1.html">Shop Components 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="component-shop-2.html">Shop Components 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="component-shop-3.html">Shop Components 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="component-shop-4.html">Shop Components 4</a>
-                                        </li>
-                                        <li>
-                                            <a href="component-shop-5.html">Shop Components 5</a>
-                                        </li>
-                                        <li>
-                                            <a href="component-shop-6.html">Shop Components 6</a>
-                                        </li>
-                                        <li>
-                                            <a href="component-shop-7.html">Shop Components 7</a>
-                                        </li>
-                                    </ul>
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('real')}}">地产开发
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
                                 </li>
+
+                              
                             </ul>
                         </li>
                         <li>

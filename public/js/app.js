@@ -255,8 +255,11 @@ var App = function() {
     var navActive= function() {  
         $('.navbar-nav').children().each(function () {
             var a = $(this).find('a:first');
-            
-            if ($(a).attr('href') === 'http://localhost'+location.pathname) {
+            var url =$(a).attr('href');
+            var ab = url.split('/')[3];
+            var ss = location.pathname;
+            var b = ss.split('/')[1];
+            if (ab === b) {
                 $(this).addClass('c-active');
             } else {
                 $(this).removeClass('c-active');

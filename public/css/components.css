@@ -90,6 +90,56 @@ h1 {
   font-size: 22px;
   margin: 10px 0; }
 
+.c-about{
+  padding-bottom: 40px;
+  font-size: 12.5px;
+  line-height: 21px;
+}
+.c-about >p{
+  padding:15px 10px;
+}
+.c-about >p >span{
+  color: #c7313a;
+}
+.c-fund-table{
+  margin-bottom: 30px;
+}
+#c-tables tr,#c-tables td,#c-tables th{
+  border:2px solid #fff;
+  background-color: #f8e4b5;
+  font-size:12.5px;
+  line-height: 27px;
+  padding-left: 20px;
+  
+}
+.imghover{
+  overflow: hidden; 
+}
+.imghover>img{  
+     transition: 0.7s; 
+}  
+
+.c-fund-table > caption{
+  text-align: center;
+  background-color: #dab866;
+  color: #fff;
+  font-size: 16.5px;
+  line-height: 18px;
+
+}
+.c-invest-case h3{
+  background-color: #dab866;
+  text-align: center;
+  font-size: 16.67px;
+  line-height: 37.5px;
+  margin:0;
+}
+.c-invest-case{
+  width: 50%;
+  float: left;
+  padding-bottom: 65px;
+  padding-right: 60px;
+}
 .c-reset {
   padding: 0;
   margin: 0; }

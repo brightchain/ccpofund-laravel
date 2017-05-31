@@ -51,9 +51,9 @@
                	<div class="row">
                		<div class="c-menu-right">
                			<span><a href="{{route('company')}}">公司简介</a></span>
-               			<span><a href="{{route('company')}}">核心优势</a></span>
+               			<span><a href="{{route('core')}}">核心优势</a></span>
                			<span><a href="{{route('team')}}">管理团队</a></span>
-               			<span><a href="{{route('company')}}">企业理念</a></span>
+               			<span><a href="{{route('culture')}}">企业文化</a></span>
                			<span><a href="{{route('history')}}">大事记</a></span>
                		</div>
                	</div>
@@ -73,11 +73,7 @@
             </div>
             <div class="col-md-4" >
 	            <div class="row" style="border-top: 1px solid #c9caca;"> 
-	                <div class="case-img">
-		                <a href=""><img src="../img/case.png" alt=""  class="img-responsive "></a>
-		                <a href=""><img src="../img/fund.png" alt=""  class="img-responsive "></a>
-		                <a href=""><img src="../img/history.png" alt=""  class="img-responsive "></a>
-	                </div>
+		                @include('common.rightside')     
                 </div>
             </div> 
         </div>       

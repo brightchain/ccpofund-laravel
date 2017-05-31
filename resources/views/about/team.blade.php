@@ -7,7 +7,7 @@
 @stop
 @section('text-content')
     <div class="clearfix">
-        <div class="c-img-fr">
+        <div class="c-img-fr imghover">
             <img src="../img/li.png" alt="" class="img-responsive" >
         </div>
         <div  class="c-img-fl">        
@@ -18,7 +18,7 @@
     </div>
 
      <div class="clearfix" style="padding-top: 20px;">
-        <div class="c-img-fr">
+        <div class="c-img-fr imghover">
             <img src="../img/tao.png" alt="" class="img-responsive" >
         </div>
         <div  class="c-img-fl">        
@@ -29,7 +29,7 @@
     </div>  
 
      <div class="clearfix" style="padding-top: 20px;">
-        <div class="c-img-fr">
+        <div class="c-img-fr imghover">
             <img src="../img/zhang.png" alt="" class="img-responsive" >
         </div>
         <div  class="c-img-fl">        
@@ -40,7 +40,7 @@
     </div>  
 
      <div class="clearfix" style="padding-top: 20px;">
-        <div class="c-img-fr">
+        <div class="c-img-fr imghover">
             <img src="../img/gao.png" alt="" class="img-responsive" >
         </div>
         <div  class="c-img-fl">        
