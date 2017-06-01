@@ -2695,6 +2695,11 @@ h1 {
   margin:0;
   padding-bottom: 10px
 }
+.ditu-content{
+  width:670px;
+  height:360px;
+  margin:0 auto;
+}
 .c-news-content{
   font-size: 12.5px;
   line-height: 21px;
@@ -6491,6 +6496,24 @@ h1 {
     text-align: center; }
 .text-content{
   padding:45px 45px 45px 0;
+}
+.funds-table{
+  margin-left: 55px;
+  
+  font-size: 12.5px;
+}
+.funds-table tr{
+  height: 40px;
+  border:1px solid #c9caca;
+  border-left:none;
+  border-right:none;
+}
+.funds-table td{
+  padding:0 20px;
+}
+.funds-tables-left{
+  text-align: right;
+  border-right:1px solid #c9caca;
 }
 .case-img{
   padding:45px 0;

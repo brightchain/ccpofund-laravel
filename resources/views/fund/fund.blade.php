@@ -30,7 +30,7 @@
     @stop
     @section('banner')
     <div class="c-subtitle c-fonts-uppercase c-fonts-bold c-bg-img-center" >
-    <img src="../img/c-bj.png" alt="Image-1" width="100%" height="auto">
+    <img src="../img/funds.png" alt="Image-1" width="100%" height="auto">
             </div>
     @stop
     @section('content')

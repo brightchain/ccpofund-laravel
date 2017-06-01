@@ -58,4 +58,9 @@ Route::get('/news/industry','NewsController@industry')->name('industry');
 
 Route::get('/news/industry/{id}','NewsController@industryshow');
 
+//联系我们
+Route::get('/contact/us','ContactController@index')->name('contactus');
+
+Route::get('/contact/recruit','ContactController@recruit')->name('recruit');
+
 Route::any('uploads', 'TestController@uploadImages');

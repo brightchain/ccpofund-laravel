@@ -153,9 +153,22 @@
                             <!-- END: MOBILE VERSION OF THE TAB MEGA MENU -->
                         </li>
                         <li>
-                            <a href="javascript:;" class="c-link dropdown-toggle">联系我们
+                            <a href="{{route('contactus')}}" class="c-link dropdown-toggle">联系我们
                                 <span class="c-arrow c-toggler"></span>
                             </a>
+                            <ul class="dropdown-menu c-menu-type-classic c-pull-left">
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('contactus')}}">联系我们
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="{{route('industry')}}">招贤纳士
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                              
+                            </ul>
                             <!-- END: MOBILE VERSION OF THE TAB MEGA MENU -->
                         </li>
                         <li class="c-search-toggler-wrapper">
