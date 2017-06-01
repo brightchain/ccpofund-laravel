@@ -5,7 +5,7 @@ use Illuminate\Http\Request;
 class TestController extends Controller
 {
     /**
-     * ajax上传文件
+     * 编辑器图片上传保存功能
      */
     public function uploadImages(Request $request)
     {

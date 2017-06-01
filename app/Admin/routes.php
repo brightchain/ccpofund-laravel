@@ -12,5 +12,7 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
     $router->resource('socials', SocialsController::class);
+    $router->resource('inheritance', InheritanceController::class);
+     $router->resource('industry', IndustryController::class);
 
 });

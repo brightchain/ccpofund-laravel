@@ -6,8 +6,8 @@
     </div>
 @stop
 @section('text-content')
-	 <h3>企业文化</h3>
-	 <h3>COMPANY CULTURE</h3>             
+	<h3>企业文化</h3>
+	<h3>COMPANY CULTURE</h3>             
 	<img src="../img/culture.jpg" alt=""  class="img-responsive center-block" style="">
 	
  @stop

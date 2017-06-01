@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+//关于传承栏目
 Route::get('/about/company','AboutController@index')->name('company');
 
 Route::get('/about/core','AboutController@core')->name('core');
@@ -25,10 +26,12 @@ Route::get('/about/team','AboutController@team')->name('team');
 
 Route::get('/about/history','AboutController@history')->name('history');
 
+//基金管理栏目
 Route::get('/funds','FundsController@index')->name('funds');
 
 Route::get('/funds/issues','FundsController@issues')->name('issues');
 
+//投资运营栏目
 Route::get('/invests/cases','InvestsController@cases')->name('cases');
 
 Route::get('/invests/real','InvestsController@real')->name('real');
@@ -41,10 +44,18 @@ Route::get('/invests/property','InvestsController@property')->name('property');
 
 Route::get('/invests/urban','InvestsController@urban')->name('urban');
 
+//社会责任栏目
 Route::get('/socials','SocialsController@index')->name('socials');
 
 Route::get('/socials/{id}','SocialsController@show');
 
+//新闻中心
+Route::get('/inheritance','NewsController@inheritance')->name('inheritance');
 
+Route::get('/inheritance/{id}','NewsController@show');
+
+Route::get('/news/industry','NewsController@industry')->name('industry');
+
+Route::get('/news/industry/{id}','NewsController@industryshow');
 
 Route::any('uploads', 'TestController@uploadImages');

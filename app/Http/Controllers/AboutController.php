@@ -12,10 +12,22 @@ class AboutController extends Controller
     	return view('about.company');
     }
 
+    //核心优势
+    public function core()
+    {
+        return view('about.core');
+    }
+
     //管理团队
     public function team()
     {
     	return view('about.team');
+    }
+
+    //企业文化
+    public function culture()
+    {
+        return view('about.culture');
     }
 
     //大事记
