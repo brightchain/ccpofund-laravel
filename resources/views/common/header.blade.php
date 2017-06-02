@@ -54,7 +54,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="{{route('company')}}">核心优势
+                                    <a href="{{route('core')}}">核心优势
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                 </li>

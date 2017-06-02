@@ -965,9 +965,13 @@ h1 {
 .c-img-fl{
   float:left;
   background-color: #f2f2f2;
-  padding:15.5px 15px;
   width: 82.5%;
   font-size: 10.5px;
+  min-height: 148px;
+  padding:0 40px;
+}
+.c-img-fl h3{
+  padding-top:20px;
 }
 .c-img-fr{
   float: left;

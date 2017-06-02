@@ -1,5 +1,5 @@
 @extends('common.layouts')
-@section('title','公司简介')
+@section('title',$title)
 @section('style')
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>

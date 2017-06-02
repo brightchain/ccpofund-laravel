@@ -13,6 +13,8 @@ Route::group([
     $router->get('/', 'HomeController@index');
     $router->resource('socials', SocialsController::class);
     $router->resource('inheritance', InheritanceController::class);
-     $router->resource('industry', IndustryController::class);
+    $router->resource('industry', IndustryController::class);
+    $router->resource('company', CompanyController::class);
+    $router->resource('team', TeamController::class);
 
 });

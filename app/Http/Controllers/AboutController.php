@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Model\Menu;
+use App\Model\Team;
 use Illuminate\Http\Request;
 
 class AboutController extends Controller
@@ -9,30 +11,45 @@ class AboutController extends Controller
     //公司简介
     public function index()
     {
-    	return view('about.company');
+    	$about=Menu::where('name','company')->first();
+    	$title=$about->title;
+      
+    	return view('about.company',compact('about','title'));
     }
 
     //核心优势
     public function core()
     {
-        return view('about.core');
+        $about=Menu::where('name','core')->first();
+        $title=$about->title;
+
+        return view('about.core',compact('about','title'));
     }
 
     //管理团队
     public function team()
     {
-    	return view('about.team');
+    	$team=Team::all();
+        
+        $title='管理团队';
+
+    	return view('about.team',compact('team','title'));
     }
 
     //企业文化
     public function culture()
     {
-        return view('about.culture');
+        $about=Menu::where('name','culture')->first();
+        $title=$about->title;
+        
+        return view('about.culture',compact('about','title'));
     }
 
     //大事记
     public function history()
     {
-        return view('about.history');
+        $about=Menu::where('name','history')->first();
+        $title=$about->title;
+        return view('about.history',compact('about','title'));
     }
 }

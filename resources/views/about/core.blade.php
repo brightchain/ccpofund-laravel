@@ -2,11 +2,11 @@
 @section('menu-left')
 	<div class="c-menu-left-img">
 		<span style="background-image: url(../img/arrows.png);"></span>
-   	    <a href="{{route('core')}}">核心优势</a>
+   	    <a href="{{route('core')}}">{{$about->title}}</a>
     </div>
 @stop
 @section('text-content')
-	<div class="c-about">
+	<!-- <div class="c-about">
    <img src="../img/core1.gif" alt=""  class="img-responsive center-block" style="">
    <p>
       <span>项目获取</span>
@@ -45,5 +45,6 @@
       投资项目从立项、评估、决策等环节实施有效的风险管理和内部控制，保障项目的风险在可控范围，为投资人获取优越的回报。
   		①获得项目信息→②调研分析→③投资委员会批准→④尽职调查→⑤投资决定→⑥谈判签约→⑦履约阶段→⑧监督阶段→⑨运营阶段→⑩投资退出
     </p>
-	</div>            
+	</div>             -->
+  {!!$about->content!!}
  @stop
