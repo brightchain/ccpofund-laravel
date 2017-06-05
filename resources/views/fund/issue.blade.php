@@ -2,11 +2,11 @@
 @section('menu-left')
     <div class="c-menu-left-img">
         <span style="background-image: url(../img/arrows.png);"></span>
-        <a href="{{route('issues')}}">基金发行</a>
+        <a href="{{route('issues')}}">{{$title}}</a>
     </div>
 @stop
 @section('text-content')
-    <p>
+ <!--    <p>
       传承基金旨在不动产投资领域深根细作，根据不同投资方向与行业，分别设立专业化投资基金，围绕存量物业并购、城市更新、地产开发、资产管理等领域发行基金产品。
     </p>
     <p>
@@ -15,7 +15,7 @@
     <table  class="c-fund-table" width="100%" id="c-tables">
       <caption >汇宝系列——物业并购类投资产品</caption>
       <tr >
-        <td>已发行产品</td>
+        <td width="15%">已发行产品</td>
         <td>汇宝1~6号基金、长城大厦并购基金</td>
       </tr>
       <tr>
@@ -34,7 +34,7 @@
     <table  class="c-fund-table" width="100%" id="c-tables">
       <caption >汇富系列——房地产类投资产品</caption>
       <tr >
-        <td>已发行产品</td>
+        <td width="15%">已发行产品</td>
         <td>汇富1~3号基金</td>
       </tr>
       <tr>
@@ -53,7 +53,7 @@
     <table  class="c-fund-table" width="100%" id="c-tables">
       <caption >债权类融资产品</caption>
       <tr >
-        <td>已发行产品</td>
+        <td width="15%">已发行产品</td>
         <td>汇金1~14号深圳优质资产基金、汇诚1号赎楼基金</td>
       </tr>
       <tr>
@@ -68,5 +68,6 @@
         <td>标的项目</td>
         <td>荔馨国际公寓、留学生创业大厦二期、车公庙203栋厂房</td>
       </tr>
-    </table>
+    </table> -->
+   {!!$about->content!!} 
  @stop

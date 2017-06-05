@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Model\Fund;
+use App\Model\Menu;
 use Illuminate\Http\Request;
 
 class FundsController extends Controller
@@ -33,7 +34,10 @@ class FundsController extends Controller
     //基金发行栏目
     public function issues()
     {
-        return view('fund.issue');
+        $about=Menu::where('name','issuse')->first();
+        $title=$about->title;
+
+        return view('fund.issue',compact('about','title'));
     }
 
     /**

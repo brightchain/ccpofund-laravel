@@ -65,7 +65,7 @@
                 <div class="row" style="border-top: 1px solid #c9caca;"> 
               
                     
-                    <ul style="border-right: 1px solid #c9caca;margin:0;padding:0" class="fundac">
+                    <ul style="border-right: 1px solid #c9caca;margin:0;padding:0" class="fundac product">
                       <h3 style="background-color: #dab866;text-align: center;color: #fff;margin-top: 45px;font-size: 16.6px;line-height: 35px;height: 35px;margin-bottom: 0" >所有产品</h3>
                     	<!-- <li style="border:1px solid #d3d3d3;border-right:none;background:#efefef;color: #fff;height: 35px;line-height: 35px;font-size: 12.5px;text-align:center;   ">
                     		传承汇宝6号地产并购私募投资基金（一期）
