@@ -1,5 +1,5 @@
 @extends('common.layouts')
-@section('title','基金管理')
+@section('title',$title)
 @section('style')
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
@@ -41,7 +41,7 @@
 	               	<div class="row c-menu-left">
 	               	    <div class="c-menu-left-img">
 		               	    <span style="background-image: url(../img/home.png);"></span>
-							<a href="{{route('funds')}}">基金管理</a>
+							<a href="{{route('funds')}}">{{$title}}</a>
 						</div>
 	               	    @section('menu-left')
 	               	    @show
@@ -61,13 +61,13 @@
     </div>
     <div class="c-content-box c-bg-white" style="padding-top: 15px;">
         <div class="container" >
-            <div class="col-md-4" >
+            <div class="col-md-3" >
                 <div class="row" style="border-top: 1px solid #c9caca;"> 
               
                     
-                    <ul style="border-right: 1px solid #c9caca;">
+                    <ul style="border-right: 1px solid #c9caca;margin:0;padding:0" class="fundac">
                       <h3 style="background-color: #dab866;text-align: center;color: #fff;margin-top: 45px;font-size: 16.6px;line-height: 35px;height: 35px;margin-bottom: 0" >所有产品</h3>
-                    	<li style="border:1px solid #d3d3d3;border-right:none;background:#efefef;color: #fff;height: 35px;line-height: 35px;font-size: 12.5px;text-align:center;   ">
+                    	<!-- <li style="border:1px solid #d3d3d3;border-right:none;background:#efefef;color: #fff;height: 35px;line-height: 35px;font-size: 12.5px;text-align:center;   ">
                     		传承汇宝6号地产并购私募投资基金（一期）
                     	</li>
                     	<li style="border:1px solid #d3d3d3;border-top:none;border-right:none;height: 35px;line-height: 35px;font-size: 12.5px;text-align:center;  ">
@@ -75,75 +75,78 @@
                     	</li>
                     	<li style="border:1px solid #d3d3d3;border-top:none;border-right:none;height: 35px;line-height: 35px;font-size: 12.5px;text-align:center;  ">
                     		传承汇宝6号地产并购私募投资基金（一期）
-                    	</li>
-
-                    	
+                    	</li> -->
+                      @foreach($funds as $fund)
+                      <li style="border:1px solid #d3d3d3;border-right:none;border-top:none;height: 35px;line-height: 35px;font-size: 12.5px;text-align:center;">
+                        {{$fund->title}}
+                      </li>
+                    	@endforeach
                     </ul>
                
                 </div>
             </div>
-            <div class="col-md-8" >
+            <div class="col-md-9" >
 	            <div class="row" style="border-top: 1px solid #c9caca;"> 
 	                <div class="text-content">
-        <table   width="100%" class="funds-table">
-      <caption style="font-size: 16.6px;line-height: 35px;color: #dab866" >传承汇宝6号地产并购私募投资基金（一期）</caption>
-      <tr >
-        <td class="funds-tables-left">基金名称</td>
-        <td>传承汇宝6号地产并购私募投资基金（一期）</td>
-      </tr>
-      <tr>
-        <td class="funds-tables-left">基金编号</td>
-        <td>SN1592</td>
-      </tr>
-      <tr>
-        <td class="funds-tables-left">成立时间</td>
-        <td>2016-11-01</td>
-      </tr>
-      <tr>
-        <td class="funds-tables-left">备案时间</td>
-        <td>2016-11-10</td>
-      </tr>
-      <tr>
-        <td class="funds-tables-left">基金备案阶段</td>
-        <td>暂行办法实施后成立的基金</td>
-      </tr>
-       <tr>
-        <td class="funds-tables-left">基金类型</td>
-        <td>其他投资基金</td>
-      </tr>
-       <tr>
-        <td class="funds-tables-left">币种</td>
-        <td>人民币现钞</td>
-      </tr>
-       <tr>
-        <td class="funds-tables-left">基金管理人名称</td>
-        <td>深圳市传承基金管理有限公司</td>
-      </tr>
-       <tr>
-        <td class="funds-tables-left">管理类型</td>
-        <td>受托管理</td>
-      </tr>
-      <tr>
-        <td class="funds-tables-left">托管人名称</td>
-        <td>中国光大银行股份有限公司</td>
-      </tr>
-      <tr>
-        <td class="funds-tables-left">主要投资领域</td>
-        <td>主要投资方向为优质物业并购；闲置资金仅限于投资低风险，流动性强的投资产品。</td>
-      </tr>
-      <tr>
-        <td class="funds-tables-left">运作状态</td>
-        <td>正在运作</td>
-      </tr>
-       <tr>
-        <td class="funds-tables-left">基金信息最后更新时间</td>
-        <td>2017-05-05</td>
-      </tr>
-       <tr>
-        <td class="funds-tables-left">基金协会特别提示(针对基金)</td>
-        <td></td>
-      </tr>
-    </table>
+                        <table   width="100%" class="funds-table">
+                      <caption style="font-size: 16.6px;line-height: 35px;color: #dab866" >{{$fundf->title}}</caption>
+                      <tr >
+                        <td class="funds-tables-left">基金名称</td>
+                        <td>{{$fundf->title}}</td>
+                      </tr>
+                      <tr>
+                        <td class="funds-tables-left">基金编号</td>
+                        <td>{{$fundf->number}}</td>
+                      </tr>
+                      <tr>
+                        <td class="funds-tables-left">成立时间</td>
+                        <td>{{$fundf->setup}}</td>
+                      </tr>
+                      <tr>
+                        <td class="funds-tables-left">备案时间</td>
+                        <td>{{$fundf->recore}}</td>
+                      </tr>
+                      <tr>
+                        <td class="funds-tables-left">基金备案阶段</td>
+                        <td>{{$fundf->stage}}</td>
+                      </tr>
+                       <tr>
+                        <td class="funds-tables-left">基金类型</td>
+                        <td>{{$fundf->type}}</td>
+                      </tr>
+                       <tr>
+                        <td class="funds-tables-left">币种</td>
+                        <td>{{$fundf->currency}}</td>
+                      </tr>
+                       <tr>
+                        <td class="funds-tables-left">基金管理人名称</td>
+                        <td>{{$fundf->name}}</td>
+                      </tr>
+                       <tr>
+                        <td class="funds-tables-left">管理类型</td>
+                        <td>{{$fundf->mantype}}</td>
+                      </tr>
+                      <tr>
+                        <td class="funds-tables-left">托管人名称</td>
+                        <td>{{$fundf->trustee}}</td>
+                      </tr>
+                      <tr>
+                        <td class="funds-tables-left">主要投资领域</td>
+                        <td>{{$fundf->field}}</td>
+                      </tr>
+                      <tr>
+                        <td class="funds-tables-left">运作状态</td>
+                        <td>{{$fundf->status}}</td>
+                      </tr>
+                       <tr>
+                        <td class="funds-tables-left">基金信息最后更新时间</td>
+                        <td>{{$fundf->changetime}}</td>
+                      </tr>
+                       <tr>
+                        <td class="funds-tables-left">基金协会特别提示(针对基金)</td>
+                        <td>{{$fundf->prompt}}</td>
+                      </tr>
+                    </table>
                     </div>
                 </div>
             </div> 

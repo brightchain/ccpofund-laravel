@@ -267,7 +267,21 @@ var App = function() {
        
     })
     }; 
-
+    
+    var productnav=function() {  
+        $('.product li').each(function () {
+            var a = $(this).find('a:first');
+            var url =$(a).attr('href');
+            var ss = 'http://localhost'+location.pathname;  
+            
+            if (url === ss) {
+                $(this).addClass('active-porduct');
+            } else {
+                $(this).removeClass('active-porduct');
+            }
+       
+    })
+    }; 
     //* END:CORE HANDLERS *//
 
     return {
@@ -276,6 +290,7 @@ var App = function() {
         init: function() {
             //IMPORTANT!!!: Do not modify the core handlers call order.
             navActive();
+            productnav();
             //Core handlers
             handleHeight();
             this.addResizeHandler(handleHeight); // handle auto calculating height on window resize

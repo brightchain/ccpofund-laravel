@@ -29,6 +29,8 @@ Route::get('/about/history','AboutController@history')->name('history');
 //基金管理栏目
 Route::get('/funds','FundsController@index')->name('funds');
 
+Route::get('/funds/product/{id}','FundsController@product')->name('product');
+
 Route::get('/funds/issues','FundsController@issues')->name('issues');
 
 //投资运营栏目
@@ -50,9 +52,9 @@ Route::get('/socials','SocialsController@index')->name('socials');
 Route::get('/socials/{id}','SocialsController@show');
 
 //新闻中心
-Route::get('/inheritance','NewsController@inheritance')->name('inheritance');
+Route::get('/news/chuan','NewsController@chuan')->name('inheritance');
 
-Route::get('/inheritance/{id}','NewsController@show');
+Route::get('/news/show/{id}','NewsController@show')->name('show');
 
 Route::get('/news/industry','NewsController@industry')->name('industry');
 

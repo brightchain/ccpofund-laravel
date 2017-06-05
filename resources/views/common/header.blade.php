@@ -6,9 +6,9 @@
             <div class="c-navbar-wrapper clearfix">
                 <div class="c-brand c-pull-left">
                     <a href="index.html" class="c-logo">
-                        <img src="../img/logo-3.png" alt="金砖华荣" height="47px;" class="c-desktop-logo">
-                        <img src="../img/logo-3.png" alt="金砖华荣" height="30px;" class="c-desktop-logo-inverse">
-                        <img src="../img/logo-3.png" alt="金砖华荣" height="30px;" class="c-mobile-logo"> </a>
+                        <img src="http://localhost/img/logo-3.png" alt="金砖华荣" height="47px;" class="c-desktop-logo">
+                        <img src="http://localhost/img/logo-3.png" alt="金砖华荣" height="30px;" class="c-desktop-logo-inverse">
+                        <img src="http://localhost/img/logo-3.png" alt="金砖华荣" height="30px;" class="c-mobile-logo"> </a>
                     <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
                         <span class="c-line"></span>
                         <span class="c-line"></span>

@@ -10,7 +10,7 @@
     	<div class="col-sm-8">
     		<h3 class="c-news-date">{{date_format($first['updated_at'],'M d,Y')}}</h3>
 	        <h3 class="c-news-title">
-		        <a href="{{url('inheritance',$first['id'])}}">
+		        <a href="{{route('show',$first['id'])}}">
 		        	{{$first['title']}}
 		        </a>
 	        </h3>
@@ -37,7 +37,7 @@
 		    	</div>
 		    	<div class="col-sm-10">
 		    		<h3 class="c-news-title">
-	                    <a href="{{url('inheritance',$new->id)}}">
+	                    <a href="{{route('show',$new->id)}}">
 	        	            {{$new->title}}
 	                    </a>
 	                </h3>

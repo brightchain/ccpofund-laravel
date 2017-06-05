@@ -90,6 +90,16 @@ h1 {
   font-size: 22px;
   margin: 10px 0; }
 
+.fundac li{
+ background:#efefef;
+}
+
+.active-porduct,.fundac li:first-child{
+ background:#efefef;
+}
+.active-porduct a,.fundac li:first-child a{
+  color: #fff;
+}
 .c-about{
   padding-bottom: 40px;
   font-size: 12.5px;
@@ -6503,7 +6513,7 @@ h1 {
 }
 .funds-table{
   margin-left: 55px;
-  
+  margin-bottom: 200px;
   font-size: 12.5px;
 }
 .funds-table tr{

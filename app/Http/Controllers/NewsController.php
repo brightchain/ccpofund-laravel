@@ -8,7 +8,7 @@ use App\Model\Newcenter;
 class NewsController extends Controller
 {
     //传承动态列表页
-    public function inheritance()
+    public function chuan()
     {
 	    $news=Newcenter::where('menu','c')
 	          ->orderBy('order')

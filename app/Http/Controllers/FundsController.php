@@ -12,10 +12,22 @@ class FundsController extends Controller
      * Display a listing of the resource.
      * @return \Illuminate\Http\Response
      */
-    public function index($id=1)
+    public function index()
     {
-        //
-        return view('fund.index');
+        $funds=Fund::all();
+        $product=$funds->first();
+        $title='基金产品';
+
+        return view('fund.product',compact('funds','product','title'));
+    }
+
+    public function product($id)
+    {
+         $funds=Fund::all();
+         $product=Fund::findOrFail($id);
+         $title='基金产品';
+
+         return view('fund.product',compact('funds','product','title'));
     }
     
     //基金发行栏目
