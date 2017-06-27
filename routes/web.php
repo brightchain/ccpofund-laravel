@@ -40,7 +40,7 @@ Route::get('/invests/real','InvestsController@real')->name('real');
 
 Route::get('/invests/asset','InvestsController@asset')->name('asset');
 
-Route::get('/invests/show','InvestsController@show')->name('show');
+Route::get('/invests/show/{id}','InvestsController@show')->name('invest');
 
 Route::get('/invests/property','InvestsController@property')->name('property');
 

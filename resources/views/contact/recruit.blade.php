@@ -2,7 +2,7 @@
 @section('menu-left')
 	<div class="c-menu-left-img">
 		<span style="background-image: url(../img/arrows.png);"></span>
-   	    <a href="{{route('contactus')}}">联系我们</a>
+   	    <a href="{{route('contactus')}}">{{$title}}</a>
     </div>
 @stop
 @section('text-content')

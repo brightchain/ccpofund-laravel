@@ -6,9 +6,9 @@
             <div class="c-navbar-wrapper clearfix">
                 <div class="c-brand c-pull-left">
                     <a href="index.html" class="c-logo">
-                        <img src="http://localhost/img/logo-3.png" alt="金砖华荣" height="47px;" class="c-desktop-logo">
-                        <img src="http://localhost/img/logo-3.png" alt="金砖华荣" height="30px;" class="c-desktop-logo-inverse">
-                        <img src="http://localhost/img/logo-3.png" alt="金砖华荣" height="30px;" class="c-mobile-logo"> </a>
+                        <img src="http://localhost/img/logo-3.png" alt="传承基金" height="47px;" class="c-desktop-logo">
+                        <img src="http://localhost/img/logo-3.png" alt="传承基金" height="30px;" class="c-desktop-logo-inverse">
+                        <img src="http://localhost/img/logo-3.png" alt="传承基金" height="30px;" class="c-mobile-logo"> </a>
                     <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
                         <span class="c-line"></span>
                         <span class="c-line"></span>
@@ -163,7 +163,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="{{route('industry')}}">招贤纳士
+                                    <a href="{{route('recruit')}}">招贤纳士
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                 </li>
@@ -333,13 +333,13 @@
         <div class="c-section">
             <h3>员工入口</h3>
             <div class="c-settings">
-                <a href="http://oa.chinajzhr.com" target="_blank">
+                <a href="http://oa.szcctz.com" target="_blank">
                     <i class="icon-tag c-cart-icon"></i>
                     <span>OA协同办公</span>
                 </a>
             </div>
             <div class="c-settings">
-                <a href="http://mail.chinajzhr.com" target="_blank">
+                <a href="http://mail.ccpofund.com" target="_blank">
                     <i class="icon-envelope c-cart-icon"></i>
                     <span>企业邮箱登录</span>
                 </a>

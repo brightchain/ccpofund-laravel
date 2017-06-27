@@ -50,7 +50,7 @@
                <div class="col-md-6">
                	<div class="row">
                		<div class="c-menu-right">
-               			<span><a href="{{route('issues')}}">基金发行</a></span>
+               			<span><a href="{{route('issues')}}">基金概况</a></span>
                			<span><a href="{{route('funds')}}">基金产品</a></span>
                			
                		</div>

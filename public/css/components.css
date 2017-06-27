@@ -141,6 +141,11 @@ h1 {
   line-height: 37.5px;
   margin:0;
 }
+.c-invest-case a{
+  color: #fff;
+  font-size:16.68px;
+   
+}
 .c-invest-case{
   width: 50%;
   float: left;

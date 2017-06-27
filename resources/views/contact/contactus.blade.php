@@ -2,19 +2,19 @@
 @section('menu-left')
 	<div class="c-menu-left-img">
 		<span style="background-image: url(../img/arrows.png);"></span>
-   	    <a href="{{route('contactus')}}">联系我们</a>
+   	    <a href="{{route('contactus')}}">{{$title}}</a>
     </div>
 @stop
 @section('text-content')
 
-	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script><!--百度地图容器-->
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script> <!--百度地图容器-->
 	<div style="background-color: #efefef;padding:25px;" class="clearfix">
 	<div class="col-md-8">
 		<div id="dituContent" class="ditu-content">
 	&nbsp;</div>
 	</div>
 	<div class="col-md-4" >
-	<div class="row" style=" display: table-cell;
+	<!-- <div class="row" style=" display: table-cell;
     vertical-align: middle; /*定义body的元素垂直居中*/
            width: 333px;
             height: 360px;padding-left:20px;
@@ -27,9 +27,11 @@
 			电话：0755-22941400<br />
 			网址：www.ccpofund.com
 		</p>
-	</div>
+	</div> -->
+    {!!$us->content!!}
 	</div>
 </div>
+
 <script type="text/javascript">
     //创建和初始化地图函数：
     function initMap(){
@@ -120,6 +122,6 @@
         return icon;
     }
     initMap();//创建和初始化地图
-</script>
+</script>  
 
  @stop

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Model\Invest;
 use Illuminate\Http\Request;
+use App\Model\Invent;
 
 class InvestsController extends Controller
 {
@@ -14,14 +15,19 @@ class InvestsController extends Controller
      */
     public function cases()
     {
-        
-        return view('invest.cases');
+        $invest=Invent::orderBy('order')->orderBy('updated_at', 'DESC')->get();
+        $title='案例展示';
+
+        return view('invest.cases',compact('invest','title'));
     }
     
     //案例展示内容页
-    public function show()
+    public function show($id)
     {
-        return view('invest.casesshow');
+        $invest=Invent::findOrFail($id);
+        $title='案例展示';
+
+        return view('invest.casesshow',compact('invest','title'));
     }
     
     //存量物业并购

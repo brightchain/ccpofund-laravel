@@ -45,7 +45,7 @@
                             </li>
                             <!--END -->
                             <!--BEGIN: SLIDE #2 -->
-                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
+                          <!--   <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
                                 <img alt="" src="img/bg-20.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption customin customout" data-x="center" data-y="center" data-hoffset="" data-voffset="-50" data-speed="500" data-start="1000" data-transform_idle="o:1;" data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
                                 data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:600;e:Back.easeInOut;" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="600">
@@ -73,7 +73,7 @@
                                 data-transform_out="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;">
                                     <a href="http://themeforest.net/item/jango-responsive-multipurpose-html5-template/11987314" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Purchase</a>
                                 </div>
-                            </li>
+                            </li> -->
                             <!--END -->
                         </ul>
                     </div>
@@ -88,7 +88,7 @@
                     <div class="row c-bg-grey-1">
                         <div class="col-sm-3 ">
                             <div class="text-center c-bg-white1">
-                                <a href="" class="">
+                                <a href="{{route('funds')}}" class="">
                                 <p class="c-img-01 c-img">
                                 <h3>基金产品</h3>
                                 </a>
@@ -112,7 +112,7 @@
                         </div>
                         <div class="col-sm-3 c-card ">
                             <div class="text-center c-bg-white1" data-wow-delay="0.6s">
-                                <a href="" class="">
+                                <a href="{{route('team')}}" class="">
                                 <p class="c-img-04 c-img">
                                 <h3>团队风采</h3>
                                 </a>
