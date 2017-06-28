@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Model\Invest;
 use Illuminate\Http\Request;
-use App\Model\Invent;
+use App\Model\Invent; 
+use App\Model\Menu;
 
 class InvestsController extends Controller
 {
@@ -15,10 +16,10 @@ class InvestsController extends Controller
      */
     public function cases()
     {
-        $invest=Invent::orderBy('order')->orderBy('updated_at', 'DESC')->get();
+        $invest11=Invent::orderBy('order')->orderBy('updated_at', 'DESC')->paginate(6);
         $title='案例展示';
-
-        return view('invest.cases',compact('invest','title'));
+        
+        return view('invest.cases',compact('invest11','title'));
     }
     
     //案例展示内容页
@@ -33,25 +34,41 @@ class InvestsController extends Controller
     //存量物业并购
     public function property()
     {
-        return view('invest.property');
+       $property=Menu::where('name','property')->first();
+       $title=$property->title;
+       $invest=Invent::where('category',1)->get();
+
+       return view('invest.property',compact('property','title','invest'));
     }
     
     //城市更新
     public function urban()
     {
-        return view('invest.urban');
+        $urban=Menu::where('name','urban')->first();
+        $title=$urban->title;
+        $invest=Invent::where('category',2)->get();
+       
+        return view('invest.urban',compact('urban','title','invest'));
     }
     
     //资产管理
     public function asset()
     {
-        return view('invest.asset');
+        $asset=Menu::where('name','asset')->first();
+        $title=$asset->title;
+        $invest=Invent::where('category',3)->get();
+       
+        return view('invest.asset',compact('asset','title','invest'));
     }
     
     //地产开发
     public function real()
     {
-        return view('invest.reales');
+        $real=Menu::where('name','real')->first();
+        $title=$real->title;
+        $invest=Invent::where('category',4)->get();
+       
+        return view('invest.reales',compact('real','title','invest'));
     }
 
     /**

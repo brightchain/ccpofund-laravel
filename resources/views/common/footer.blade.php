@@ -6,13 +6,13 @@
                     
                     <div class="col-md-8">
                     <div class="row">   
-                        <div class="c-image c-overlay-object" data-height="height" style=" border-top: 1px solid #c9caca;height: 100px;border-bottom: 1px solid #c9caca;padding-top: 60px;font-size: 18px;font-weight: bold;">您的来访希望了解：<a href="">项目合作</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">资金投资</a></div> 
+                        <div class="c-image c-overlay-object" data-height="height" style=" border-top: 1px solid #c9caca;height: 100px;border-bottom: 1px solid #c9caca;padding-top: 60px;font-size: 18px;font-weight: bold;">您的来访希望了解：<a href="{{route('cooper')}}">项目合作</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{route('funds')}}">资金投资</a></div> 
                         
                         </div>
                     </div>
                     <div class="col-md-4" >
                     <div class="row"> 
-                        <div style="height: 100px;border: 1px solid #c9caca;border-right:none;line-height: 100px;font-size: 14px;text-align: center;"> 投资者须知 | 合作流程   |  法律申明   | 传承集团 </div>
+                        <div style="height: 100px;border: 1px solid #c9caca;border-right:none;line-height: 100px;font-size: 14px;text-align: center;"> <a href="">投资者须知</a> &nbsp;| &nbsp;<a href="{{route('cooper')}}">合作流程</a>  &nbsp; | &nbsp;  <a href="">法律申明 </a>  &nbsp;| &nbsp;<a href="http://www.szcctz.com">传承集团</a> </div>
                         <div style="height: 175px;padding:20px;border-left: 1px solid #c9caca;">  
                             <div class="col-sm-8">  
                                 <div class="row">

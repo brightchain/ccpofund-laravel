@@ -7,7 +7,7 @@
 @stop
 @section('text-content')
      <img src="http://localhost/upload/{{$invest->img}}" alt="" class="img-responsive center-block">
-     <div style="margin-top: 40px;">
+     <div style="margin-top: 40px;font-size: 14px;">
         <!-- <h3 style="text-align: center;font-size: 21px;line-height: 37.5px;color: #c3222c">民生银行大厦</h3>
         <p>
             中国民生银行大厦，位于深圳福田滨河大道与新洲立交桥交汇处西南侧旁，占地面积3,441.1平米，大厦地处深圳行政文化中心及商业中心区，可方便到达深圳各行政区，并可有效利用周边高档酒店、商业配套资源。

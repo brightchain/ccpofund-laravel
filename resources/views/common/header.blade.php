@@ -86,7 +86,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="{{route('issues')}}">基金发行
+                                    <a href="{{route('issues')}}">基金概况
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                 </li>

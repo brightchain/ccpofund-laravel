@@ -66,3 +66,8 @@ Route::get('/contact/us','ContactController@index')->name('contactus');
 Route::get('/contact/recruit','ContactController@recruit')->name('recruit');
 
 Route::any('uploads', 'TestController@uploadImages');
+
+//合作流程
+Route::get('/cooper','CooperationController@index')->name('cooper');
+
+Route::get('/certify','CooperationController@certify')->name('certify');

@@ -39,7 +39,7 @@
 	    </li>  
 	</ul>   -->              
 	<ul>
-		@foreach($invest as $invest)
+		@foreach($invest11 as $invest)
 		<li class="c-invest-case"> 
 	        <img src="http://localhost/upload/{{$invest->img}}" alt="" class="img-responsive">
 	        <h3>
@@ -48,4 +48,6 @@
 	    </li>  
 	    @endforeach
 	</ul>
+
+	{{ $invest11->links() }}
  @stop
