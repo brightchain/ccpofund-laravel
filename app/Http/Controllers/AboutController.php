@@ -52,4 +52,13 @@ class AboutController extends Controller
         $title=$about->title;
         return view('about.history',compact('about','title'));
     }
+
+    //法律申明
+    public function law()
+    {
+        $law=Menu::where('name','law')->first();
+        $title=$law->title;
+      
+        return view('about.law',compact('law','title'));
+    }
 }

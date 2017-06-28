@@ -24,4 +24,6 @@ class CooperationController extends Controller
       
     	return view('cooper.ation',compact('cooper','title'));
     }
+
+    
 }

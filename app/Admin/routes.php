@@ -18,5 +18,6 @@ Route::group([
     $router->resource('team', TeamController::class);
     $router->resource('fund', FundController::class);
     $router->resource('invents', InventsController::class);
+    $router->resource('recruit', RecruitController::class);
 
 });

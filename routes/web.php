@@ -26,6 +26,9 @@ Route::get('/about/team','AboutController@team')->name('team');
 
 Route::get('/about/history','AboutController@history')->name('history');
 
+//法律申明
+Route::get('/about/law','AboutController@law')->name('law');
+
 //基金管理栏目
 Route::get('/funds','FundsController@index')->name('funds');
 
@@ -71,3 +74,4 @@ Route::any('uploads', 'TestController@uploadImages');
 Route::get('/cooper','CooperationController@index')->name('cooper');
 
 Route::get('/certify','CooperationController@certify')->name('certify');
+

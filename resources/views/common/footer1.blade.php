@@ -12,7 +12,7 @@
                     </div>
                     <div class="col-md-4" >
                     <div class="row"> 
-                        <div style="height: 100px;border: 1px solid #c9caca;border-right:none;line-height: 100px;font-size: 14px;text-align: center;"> <a href="">投资者须知</a> &nbsp;| &nbsp;<a href="{{route('cooper')}}">合作流程</a>  &nbsp; | &nbsp;  <a href="">法律申明 </a>  &nbsp;| &nbsp;<a href="http://www.szcctz.com">传承集团</a> </div>
+                        <div style="height: 100px;border: 1px solid #c9caca;border-right:none;line-height: 100px;font-size: 14px;text-align: center;"> <a href="">投资者须知</a> &nbsp;| &nbsp;<a href="{{route('cooper')}}">合作流程</a>  &nbsp; | &nbsp;  <a href="{{route('law')}}">法律申明 </a>  &nbsp;| &nbsp;<a href="http://www.szcctz.com">传承集团</a> </div>
                         <div style="height: 175px;padding:20px;border-left: 1px solid #c9caca;">  
                             <div class="col-sm-8">  
                                 <div class="row">
