@@ -19,7 +19,7 @@ class ContactController extends Controller
 
     public function recruit()
     {
-    	$recruit=Recruit::all();
+    	$recruit=Recruit::orderBy('order')->orderBy('updated_at', 'DESC')->get();
         $title='招贤纳士';
         return view('contact.recruit',compact('recruit','title'));
     }

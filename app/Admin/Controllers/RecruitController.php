@@ -72,7 +72,7 @@ class RecruitController extends Controller
     protected function grid()
     {
         return Admin::grid(Recruit::class, function (Grid $grid) {
-
+            $grid->model()->OrderBy('order')->orderBy('updated_at', 'DESC');
             $grid->id('ID')->sortable();
             $grid->title('职位名称');
             $grid->order('排序');

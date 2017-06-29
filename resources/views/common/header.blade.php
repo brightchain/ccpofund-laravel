@@ -360,7 +360,7 @@
         <div class="c-section">
             <h3>微信公众号</h3>
             <div class="c-settings">
-                <img src="img/weixin.jpg" width="180px;" alt="微信公众号">
+                <img src="http://localhost/img/weixin.png" width="180px;" alt="微信公众号">
                 <div style="font-size:12px;padding-top: 5px;">
                     扫描二维码关注金砖华荣
                     <br/>获取我们的最新动态

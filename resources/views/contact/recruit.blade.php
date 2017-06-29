@@ -7,7 +7,7 @@
 @stop
 @section('text-content')
 
-<ul style="margin:0;padding:0;">
+<!-- <ul style="margin:0;padding:0;">
     <li style="padding-bottom: 25px;">
         <h3 style="background-color: #c3222c;color: #fff;font-size: 14.58px;line-height: 37.5px;padding-left: 30px;">项目拓展</h3>
         <p style="font-size: 12.5px;line-height: 21px;padding-left: 30px;">
@@ -83,6 +83,20 @@
             4、年龄要求25岁以上
         </p>
     </li>
-</ul>
-
+</ul> -->
+<ul style="margin:0;padding:0;">
+@foreach($recruit as $recruit)
+    <li style="padding-bottom: 25px;">
+    @if($recruit->status==1)
+        <h3 style="background-color: #c3222c;color: #fff;font-size: 14.58px;line-height: 37.5px;padding-left: 30px;">{{$recruit->title}}</h3>
+        @else
+        <h3 style="background-color: #c9caca;color: #fff;font-size: 14.58px;line-height: 37.5px;padding-left: 30px;">{{$recruit->title}}</h3>
+        @endif
+        <p style="font-size: 12.5px;line-height: 21px;padding-left: 30px;padding-top: 20px">
+            {!!$recruit->content!!}
+        </p>
+    </li>
+   @endforeach
+    
+</ul> 
  @stop

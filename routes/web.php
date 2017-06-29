@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'HomepageController@index');
 
 //关于传承栏目
 Route::get('/about/company','AboutController@index')->name('company');
@@ -52,7 +50,7 @@ Route::get('/invests/urban','InvestsController@urban')->name('urban');
 //社会责任栏目
 Route::get('/socials','SocialsController@index')->name('socials');
 
-Route::get('/socials/{id}','SocialsController@show');
+Route::get('/socials/{id}','SocialsController@show')->name('socialsshow');
 
 //新闻中心
 Route::get('/news/chuan','NewsController@chuan')->name('inheritance');
