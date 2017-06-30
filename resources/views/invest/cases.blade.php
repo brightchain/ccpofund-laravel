@@ -1,7 +1,7 @@
 @extends('invest.invest')
 @section('menu-left')
 	<div class="c-menu-left-img">
-		<span style="background-image: url(../img/arrows.png);"></span>
+		<span style="background-image: url(http://www.ccpofund.com/img/arrows.png);"></span>
    	    <a href="{{route('cases')}}">{{$title}}</a>
     </div>
 @stop
@@ -41,7 +41,7 @@
 	<ul>
 		@foreach($invest11 as $invest)
 		<li class="c-invest-case"> 
-	        <img src="http://localhost/upload/{{$invest->img}}" alt="" class="img-responsive">
+	        <img src="http://www.ccpofund.com/upload/{{$invest->img}}" alt="" class="img-responsive">
 	        <h3>
 		        <a href="{{route('invest',$invest->id)}}">{{$invest->title}}</a>
 	        </h3>

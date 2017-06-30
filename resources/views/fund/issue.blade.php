@@ -1,7 +1,7 @@
 @extends('fund.fund')
 @section('menu-left')
     <div class="c-menu-left-img">
-        <span style="background-image: url(../img/arrows.png);"></span>
+        <span style="background-image: url(http://www.ccpofund.com/img/arrows.png);"></span>
         <a href="{{route('issues')}}">{{$title}}</a>
     </div>
 @stop

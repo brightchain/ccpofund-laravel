@@ -28,7 +28,7 @@
                             </div>
                             <div class="col-sm-4"> 
                             <div class="row">  
-                              <div class="c-image c-overlay-object" data-height="height" style="background-image: url(http://localhost/img/weixin.png);background-repeat : no-repeat;height: 138px;"></div>
+                              <div class="c-image c-overlay-object" data-height="height" style="background-image: url(http://www.ccpofund.com/img/weixin.png);background-repeat : no-repeat;height: 138px;"></div>
                             </div> 
                             </div> 
                         </div>
@@ -50,32 +50,32 @@
         <!--[if lt IE 9]>
     <script src="http://localhost/assets/global/plugins/excanvas.min.js"></script> 
     <![endif]-->
-        <script src="http://localhost/js/jquery.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery.easing.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/wow.js" type="text/javascript"></script>
-        <script src="http://localhost/js/reveal-animate.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/wow.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/reveal-animate.js" type="text/javascript"></script>
         <!-- END: CORE PLUGINS -->
         <!-- BEGIN: LAYOUT PLUGINS -->
-        <script src="http://localhost/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/revolution.extension.slideanims.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/revolution.extension.navigation.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/revolution.extension.video.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/owl.carousel.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery.waypoints.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery.counterup.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery.fancybox.pack.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="http://localhost/js/bootstrap-slider.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/revolution.extension.navigation.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/revolution.extension.video.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.counterup.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/bootstrap-slider.js" type="text/javascript"></script>
         <!-- END: LAYOUT PLUGINS -->
         <!-- BEGIN: THEME SCRIPTS -->
-        <script src="http://localhost/js/components.js" type="text/javascript"></script>
-        <script src="http://localhost/js/components-shop.js" type="text/javascript"></script>
-        <script src="http://localhost/js/app.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/components.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/components-shop.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/app.js" type="text/javascript"></script>
         <script>
             $(document).ready(function()
             {
@@ -85,15 +85,15 @@
         </script>
         <!-- END: THEME SCRIPTS -->
         <!-- BEGIN: PAGE SCRIPTS -->
-        <script src="http://localhost/js/slider-4.js" type="text/javascript"></script>
-        <script src="http://localhost/js/isotope.pkgd.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/packery-mode.pkgd.min.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery.requestAnimationFrame.js" type="text/javascript"></script>
-        <script src="http://localhost/js/jquery.mousewheel.js" type="text/javascript"></script>
-        <script src="http://localhost/js/ilightbox.packed.js" type="text/javascript"></script>
-        <script src="http://localhost/js/isotope-gallery.js" type="text/javascript"></script>
-        <script src="http://localhost/js/revolution.extension.parallax.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/slider-4.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/isotope.pkgd.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/packery-mode.pkgd.min.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.requestAnimationFrame.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/jquery.mousewheel.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/ilightbox.packed.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/isotope-gallery.js" type="text/javascript"></script>
+        <script src="http://www.ccpofund.com/js/revolution.extension.parallax.min.js" type="text/javascript"></script>
         <!-- END: PAGE SCRIPTS -->
         <!-- END: LAYOUT/BASE/BOTTOM -->
   <!--   <script>

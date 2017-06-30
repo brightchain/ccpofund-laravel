@@ -4,33 +4,33 @@
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
     <!--<link href="css/socicon.css" rel="stylesheet" type="text/css" /> -->
-    <link href="http://localhost/css/bootstrap-social.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/font-awesome.min.css"" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/animate.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/bootstrap-social.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/font-awesome.min.css"" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN: BASE PLUGINS  -->
-    <link href="http://localhost/css/settings.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/layers.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/navigation.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/cubeportfolio.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/owl.carousel.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/slider.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/settings.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/layers.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/cubeportfolio.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/slider.css" rel="stylesheet" type="text/css" />
     <!-- END: BASE PLUGINS -->
     <!-- BEGIN: PAGE STYLES -->
-    <link href="http://localhost/css/ilightbox.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/ilightbox.css" rel="stylesheet" type="text/css" />
     <!-- END: PAGE STYLES -->
     <!-- BEGIN THEME STYLES -->
-    <link href="http://localhost/css/plugins.css" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
-    <link href="http://localhost/css/default.css" rel="stylesheet" id="style_theme" type="text/css" />
-    <link href="http://localhost/css/custom.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
+    <link href="http://www.ccpofund.com/css/default.css" rel="stylesheet" id="style_theme" type="text/css" />
+    <link href="http://www.ccpofund.com/css/custom.css" rel="stylesheet" type="text/css" />
     @stop
     @section('banner')
     <div class="c-subtitle c-fonts-uppercase c-fonts-bold c-bg-img-center" >
-      <img src="http://localhost/img/social.jpg" alt="Image-1" width="100%" height="auto">
+      <img src="http://www.ccpofund.com/img/social.jpg" alt="Image-1" width="100%" height="auto">
     </div>       
     @stop
     @section('content')
@@ -40,11 +40,11 @@
                 <div class="col-md-6">
                    	<div class="row c-menu-left">
                      	<div class="c-menu-left-img">
-                            <span style="background-image: url(http://localhost/img/home.png);"></span>
+                            <span style="background-image: url(http://www.ccpofund.com/img/home.png);"></span>
                      	    <a href="{{url('/')}}">首页</a>
                         </div>
                      	<div class="c-menu-left-img">
-                            <span style="background-image: url(http://localhost/img/arrows.png);"></span>
+                            <span style="background-image: url(http://www.ccpofund.com/img/arrows.png);"></span>
                             <a href="{{route('inheritance')}}">新闻中心</a>
                         </div>
                    	</div>

@@ -6,9 +6,9 @@
             <div class="c-navbar-wrapper clearfix">
                 <div class="c-brand c-pull-left">
                     <a href="index.html" class="c-logo">
-                        <img src="http://localhost/img/logo-3.png" alt="传承基金" height="47px;" class="c-desktop-logo">
-                        <img src="http://localhost/img/logo-3.png" alt="传承基金" height="30px;" class="c-desktop-logo-inverse">
-                        <img src="http://localhost/img/logo-3.png" alt="传承基金" height="30px;" class="c-mobile-logo"> </a>
+                        <img src="http://www.ccpofund.com/img/logo-3.png" alt="传承基金" height="47px;" class="c-desktop-logo">
+                        <img src="http://www.ccpofund.com/img/logo-3.png" alt="传承基金" height="30px;" class="c-desktop-logo-inverse">
+                        <img src="http://www.ccpofund.com/img/logo-3.png" alt="传承基金" height="30px;" class="c-mobile-logo"> </a>
                     <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
                         <span class="c-line"></span>
                         <span class="c-line"></span>
@@ -114,7 +114,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="{{route('issues')}}">资产管理
+                                    <a href="{{route('asset')}}">资产管理
                                         <span class="c-arrow c-toggler"></span>
                                     </a>
                                 </li>
@@ -339,7 +339,7 @@
                 </a>
             </div>
             <div class="c-settings">
-                <a href="http://mail.ccpofund.com" target="_blank">
+                <a href="http://mail.szcccf.com/" target="_blank">
                     <i class="icon-envelope c-cart-icon"></i>
                     <span>企业邮箱登录</span>
                 </a>
@@ -348,21 +348,21 @@
         <div class="c-section">
             <h3>联系我们</h3>
             <div class="c-settings">
-                工作时间：09:00 ~ 16:00
+                工作时间：09:00 ~ 17:30
             </div>
             <div class="c-settings">
-                联系电话：0755-86895421
+                联系电话：0755-22941400
             </div>
             <div class="c-settings">
-                地址：深圳市前海深港合作区前湾一路1号A栋201室
+                地址：深圳市福田区卓越时代广场4408室
             </div>
         </div>
         <div class="c-section">
             <h3>微信公众号</h3>
             <div class="c-settings">
-                <img src="http://localhost/img/weixin.png" width="180px;" alt="微信公众号">
+                <img src="http://www.ccpofund.com/img/weixin.png" width="180px;" alt="微信公众号">
                 <div style="font-size:12px;padding-top: 5px;">
-                    扫描二维码关注金砖华荣
+                    扫描二维码关注传承基金
                     <br/>获取我们的最新动态
                 </div>
             </div>

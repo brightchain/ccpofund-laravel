@@ -59,7 +59,7 @@ Route::get('/news/show/{id}','NewsController@show')->name('show');
 
 Route::get('/news/industry','NewsController@industry')->name('industry');
 
-Route::get('/news/industry/{id}','NewsController@industryshow');
+Route::get('/news/industry/{id}','NewsController@industryshow')->name('indushow');
 
 //联系我们
 Route::get('/contact/us','ContactController@index')->name('contactus');

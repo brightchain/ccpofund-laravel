@@ -1,12 +1,12 @@
 @extends('invest.invest')
 @section('menu-left')
 	<div class="c-menu-left-img">
-		<span style="background-image: url(../img/arrows.png);"></span>
+		<span style="background-image: url(http://www.ccpofund.com/img/arrows.png);"></span>
    	    <a href="{{route('cases')}}">{{$title}}</a>
     </div>
 @stop
 @section('text-content')
-     <img src="http://localhost/upload/{{$invest->img}}" alt="" class="img-responsive center-block">
+     <img src="http://www.ccpofund.com/upload/{{$invest->img}}" alt="" class="img-responsive center-block">
      <div style="margin-top: 40px;font-size: 14px;">
         <!-- <h3 style="text-align: center;font-size: 21px;line-height: 37.5px;color: #c3222c">民生银行大厦</h3>
         <p>

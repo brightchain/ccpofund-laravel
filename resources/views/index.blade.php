@@ -36,7 +36,7 @@
                         <ul>
                             <!--BEGIN: SLIDE #1 -->
                             <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
-                                <img alt="" src="img/bg1.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img alt="" src="img/bg1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption customin customout" data-x="center" data-y="center" data-hoffset="" data-voffset="-50" data-speed="500" data-start="1000" data-transform_idle="o:1;" data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
                                 data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="600">
                                     <h3 class="c-main-title-circle c-font-27 c-font-bold c-font-center c-font-uppercase c-font-white c-block"> 传承基金,不动产投资专家
@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-sm-3 ">
                             <div class="text-center c-bg-white1" data-wow-delay="0.2s">
-                                <a href="" class="">
+                                <a href="{{route('cases')}}" class="">
                                 <p class="c-img-02 c-img">
                                 <h3>投资方向</h3>
                                 </a>
@@ -104,7 +104,7 @@
                         </div>
                         <div class="col-sm-3 ">
                             <div class="text-center c-bg-white1" data-wow-delay="0.4s">
-                                <a href="" class="">
+                                <a href="{{route('cooper')}}" class="">
                                 <p class="c-img-03 c-img">
                                 <h3>投资流程</h3>
                                 </a>
@@ -133,7 +133,7 @@
                                 <div class="row c-bg-gray"> 
                                     <div class="col-sm-6">
                                         <div class="c-tile-content c-content-overlay">
-                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(http://localhost/upload/{{$new->thumbs}}); height: 325px;"></div>
+                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(upload/{{$new->thumbs}}); height: 325px;"></div>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
@@ -159,7 +159,7 @@
                                 <div class="row c-bg-gray"> 
                                     <div class="col-sm-6 ">
                                         <div class="c-tile-content c-content-overlay">
-                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(http://localhost/upload/{{$social->thumbnail}}); height: 325px;"></div>
+                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(upload/{{$social->thumbnail}}); height: 325px;"></div>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 ">
