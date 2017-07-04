@@ -12,15 +12,15 @@
 
 ## 网站运行效果图
 
-# 首页
+### 首页
 <p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/img/FireShot%20Capture%205.png" alt=""></p>
 
-# 公司简介
+### 公司简介
 <p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/img/FireShot%20Capture%206.png" alt=""></p>
 
-# 新闻中心
+### 新闻中心
 <p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/img/FireShot%20Capture%2018.png" alt=""></p>
 
-# 投资运营
+### 投资运营
 <p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/img/FireShot%20Capture%2022.png" alt=""></p>
 
