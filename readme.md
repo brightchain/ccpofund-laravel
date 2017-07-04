@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/favicon.ico"></p>
+<p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/标志.jpg"></p>
 
 
 
@@ -10,4 +10,13 @@
 
 基于Laravel 5.4框架开发，后台模块采用Laravel-admin.
 
+##网站运行效果图
+
+<p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/FireShot Capture 5.png" alt=""></p>
+
+<p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/FireShot Capture 6.png" alt=""></p>
+
+<p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/FireShot Capture 18.png" alt=""></p>
+
+<p align="center"><img src="https://github.com/chenbinhua/ccpofund-laravel/blob/master/public/FireShot Capture 22.png" alt=""></p>
 
