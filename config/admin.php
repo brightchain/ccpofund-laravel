@@ -32,7 +32,7 @@ return [
      */
     'title'  => '深圳市传承基金管理有限公司',
 
-    'ccpourl'   =>'http://www.ccpofund.com',
+    
 
     /*
      * Laravel-admin auth setting.
@@ -55,7 +55,7 @@ return [
             'file'   => 'file',
         ],
 
-        'host' => 'http://localhost:/upload/',
+        'host' => 'http://www.ccpofund.com/upload/',
     ],
 
     /*

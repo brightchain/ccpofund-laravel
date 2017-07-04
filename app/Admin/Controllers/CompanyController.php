@@ -53,7 +53,7 @@ class CompanyController extends Controller
 
             $content->header('header');
             $content->description('description');
-
+             
             $content->body($this->form()->edit($id));
         });
     }
@@ -87,6 +87,14 @@ class CompanyController extends Controller
             $grid->title('栏目名称');
             $grid->created_at();
             $grid->updated_at();
+            $grid->actions(function ($actions) {
+                        $actions->disableDelete();
+            });
+            $grid->tools(function ($tools) {
+                        $tools->batch(function ($batch) {
+                                $batch->disableDelete();
+                    });
+            });
         });
     }
 
@@ -100,7 +108,7 @@ class CompanyController extends Controller
         return Admin::form(Menu::class, function (Form $form) {
 
             $form->display('id', 'ID');
-            $form->text('name');
+            $form->display('name');
             $form->text('title','栏目名称');
             $form->editor('content','栏目内容');
             $form->display('created_at', 'Created At');
