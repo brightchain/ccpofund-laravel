@@ -55,11 +55,11 @@ Route::get('/socials/{id}','SocialsController@show')->name('socialsshow');
 //新闻中心
 Route::get('/news/chuan','NewsController@chuan')->name('inheritance');
 
-Route::get('/news/show/{id}','NewsController@show')->name('show');
+Route::get('/news/{id}','NewsController@show')->name('show');
 
-Route::get('/news/industry','NewsController@industry')->name('industry');
+Route::get('/industry','NewsController@industry')->name('industry');
 
-Route::get('/news/industry/{id}','NewsController@industryshow')->name('indushow');
+Route::get('/industry/{id}','NewsController@industryshow')->name('indushow');
 
 //联系我们
 Route::get('/contact/us','ContactController@index')->name('contactus');
