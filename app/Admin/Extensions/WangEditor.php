@@ -24,10 +24,10 @@ class WangEditor extends Field
 
         var editor = new wangEditor('{$this->id}');
         editor.config.uploadImgFileName = 'image';
-        editor.config.uploadImgUrl = '/uploads';
-         editor.config.uploadHeaders = {
+        editor.config.uploadImgUrl = '/imguploads';
+        editor.config.uploadHeaders = {
         'Accept' : 'text/x-json'
-    };
+        };
         editor.config.uploadParams = {
         _token: '$token'
         };

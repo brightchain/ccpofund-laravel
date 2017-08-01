@@ -7,15 +7,18 @@
                 <div class="tp-banner-container c-theme">
                     <div class="tp-banner rev_slider" data-version="5.0">
                         <ul>
+                        @foreach($slides as $slide)
                             <!--BEGIN: SLIDE #1 -->
                             <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
-                                <img alt="" src="img/bg1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                <div class="tp-caption customin customout" data-x="center" data-y="center" data-hoffset="" data-voffset="-50" data-speed="500" data-start="1000" data-transform_idle="o:1;" data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+                                <img alt="" src="/upload/{{$slide->images}}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption customin customout" data-x="center" data-y="center" data-hoffset="" data-voffset="-50" data-speed="4000" data-start="500" data-transform_idle="o:1;" data-transform_in="rX:0.5;scaleX:0.35;scaleY:1.75;o:0;s:4000;e:Back.easeInOut;"
                                 data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="600">
-                                    <h3 class="c-main-title-circle c-font-27 c-font-bold c-font-center c-font-uppercase c-font-white c-block"> 传承基金,不动产投资专家
-                                         </h3>
+                                    <p class="c-main-title-circle c-font-37 c-font-bold c-font-center c-font-uppercase c-font-white c-block"> 
+                                    {{$slide->state}}
+                                         </p>
                                 </div>
                             </li>
+                            @endforeach
                             <!--END -->
                             <!--BEGIN: SLIDE #2 -->
                           <!--   <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
@@ -163,7 +166,7 @@
                         <div class="col-md-8">
                              <div class="row">  
                             <div class="c-content-media-2-slider" data-slider="owl">
-                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(img/company.png); height: 350px;"></div>
+                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(/img/company.jpg); height: 350px;"></div>
                             </div>
                             </div>
                         </div>

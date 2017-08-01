@@ -11,7 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta content="" name="description" />
+    <meta name="keywords" content="传承基金,传承财富,深圳传承基金,深圳传承基金管理管理有限公司,物业并购基金,房地产私募基金,深圳基金公司" />
+    <meta name="description" content="深圳传承基金管理管理有限公司" />
     <meta content="" name="author" />  
       <link href="../css/bootstrap-social.css" rel="stylesheet" type="text/css" />
     <link href="../css/font-awesome.min.css"" rel="stylesheet" type="text/css" />

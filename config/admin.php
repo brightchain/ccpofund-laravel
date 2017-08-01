@@ -55,7 +55,7 @@ return [
             'file'   => 'file',
         ],
 
-        'host' => 'http://www.ccpofund.com/upload/',
+        'host' => 'http://localhost/upload/',
     ],
 
     /*

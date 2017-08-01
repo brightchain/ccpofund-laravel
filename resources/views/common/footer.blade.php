@@ -2,27 +2,28 @@
         <a name="footer"></a>
         
             <footer class="c-content-box c-bg-white">
-                <div class="container" >
+                <div class="container" style="border-top: 1px solid #c9caca;">
                     
-                    <div class="col-md-8">
-                    <div class="row">   
-                        <div class="c-image c-overlay-object" data-height="height" style=" border-top: 1px solid #c9caca;height: 100px;border-bottom: 1px solid #c9caca;padding-top: 60px;font-size: 18px;font-weight: bold;">您的来访希望了解：<a href="{{route('cooper')}}">项目合作</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{route('funds')}}">资金投资</a></div> 
-                        
-                        </div>
-                    </div>
-                    <div class="col-md-4" >
-                    <div class="row"> 
-                        <div style="height: 100px;border: 1px solid #c9caca;border-right:none;line-height: 100px;font-size: 14px;text-align: center;"> <a href="">投资者须知</a> &nbsp;| &nbsp;<a href="{{route('cooper')}}">合作流程</a>  &nbsp; | &nbsp;  <a href="{{route('law')}}">法律申明 </a>  &nbsp;| &nbsp;<a href="http://www.szcctz.com">传承集团</a> </div>
-                        <div style="height: 175px;padding:20px;border-left: 1px solid #c9caca;">  
+                   
+                    
+                    
+                        <div style="height: 175px;padding:20px;margin:0 auto;" class="footer-width">  
                             <div class="col-sm-8">  
                                 <div class="row">
-                                <div style="font-size: 13px;">   
-                                <h3> 服务热线：0755-22941400</h3>
-                                <p> 深圳市传承基金管理有限公司<br />
-                                    地址：深圳市福田区卓越时代广场4408室<br />
-                                    粤  ICP备16030523号
-                                </p>
-                                </div>
+                                    <div style="font-size: 13px;text-align: left;">
+                                       
+                                        <h3> 深圳市传承基金管理有限公司</h3>
+                                        <p style="line-height: 25px;"> 服务热线：0755-22941400<br />
+                                            地址：深圳市福田区卓越时代广场4408室
+                                            粤  ICP备16030523号<br />
+                                        
+                                    
+                                            <a href="{{route('certify')}}">基金登记证明</a> &nbsp;| &nbsp;
+                                            <a href="{{route('cooper')}}">合作流程</a>  &nbsp; | &nbsp;  
+                                            <a href="{{route('law')}}">法律申明 </a>  &nbsp;| &nbsp;
+                                            <a href="http://www.szcctz.com">传承集团</a> 
+                                       </p>
+                                    </div>
                                 
                                 </div>
                             </div>
@@ -32,8 +33,8 @@
                             </div> 
                             </div> 
                         </div>
-                        </div>
-                    </div>
+                        
+                    
 
                     
                 </div>       

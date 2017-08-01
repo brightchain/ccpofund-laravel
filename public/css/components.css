@@ -4799,6 +4799,9 @@ h1 {
 
 @media (min-width: 992px) {
   /* 992px */
+  .footer-width{
+    width:60%;
+  }
   .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-light > .nav.navbar-nav > li > .dropdown-menu {
     background: #f7f8f9;
     box-shadow: 0px 3px 9px -5px rgba(0, 0, 0, 0.25);
@@ -5127,6 +5130,9 @@ h1 {
 
 @media (max-width: 767px) {
   /* 767px */
+  .footer-width{
+    width: 90%;
+  }
   .c-layout-revo-slider-3 .c-main-title-1 {
     padding: 10px;
     font-size: 14px;
@@ -5145,7 +5151,7 @@ h1 {
 
 .c-layout-revo-slider-4 .c-main-title-circle {
   background: rgba(0, 0, 0, 0.05);
-  padding: 380px 260px 380px 260px;
+  padding: 480px 260px 380px 260px;
   letter-spacing: 1px;
   line-height: 68px;
   border-radius: 600px; }
@@ -6542,7 +6548,7 @@ h1 {
   padding: 30px 0; }
 
 .c-content-box.c-size-md {
-  padding: 60px 0; }
+  padding: 30px 0; }
 
 .c-content-box.c-size-lg {
   padding: 80px 0; }

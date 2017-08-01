@@ -5,7 +5,7 @@
             <!-- BEGIN: BRAND -->
             <div class="c-navbar-wrapper clearfix">
                 <div class="c-brand c-pull-left">
-                    <a href="index.html" class="c-logo">
+                    <a href="#" class="c-logo">
                         <img src="http://www.ccpofund.com/img/logo-3.png" alt="传承基金" height="47px;" class="c-desktop-logo">
                         <img src="http://www.ccpofund.com/img/logo-3.png" alt="传承基金" height="30px;" class="c-desktop-logo-inverse">
                         <img src="http://www.ccpofund.com/img/logo-3.png" alt="传承基金" height="30px;" class="c-mobile-logo"> </a>

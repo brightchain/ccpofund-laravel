@@ -12,10 +12,9 @@ class NewsController extends Controller
     {
 	    $news=Newcenter::where('menu','c')
 	          ->orderBy('order')
-	          ->orderBy('created_at','desc')
+	          ->orderBy('updated_at','desc')
 	          ->paginate(4);
 	    $first=$news->first();
-	    $news=array_except($news,[0]);
 	    
 	    return view('new.inheritance',compact('news','first'));
     }
@@ -34,11 +33,12 @@ class NewsController extends Controller
     {
     	$news=Newcenter::where('menu','h')
     	      ->orderBy('order')
-	          ->orderBy('created_at','desc')
+	          ->orderBy('updated_at','desc')
 	          ->paginate(4);
 	    $first=$news->first();
 	    $news=array_except($news,[0]);
-
+    
+       
 	    return view('new.industry',compact('news','first'));
     }
 

@@ -30,7 +30,7 @@ Route::get('/about/law','AboutController@law')->name('law');
 //基金管理栏目
 Route::get('/funds','FundsController@index')->name('funds');
 
-Route::get('/funds/product/{id}','FundsController@product')->name('product');
+Route::get('/fundsproduct/{id}','FundsController@product')->name('product');
 
 Route::get('/funds/issues','FundsController@issues')->name('issues');
 
@@ -41,7 +41,7 @@ Route::get('/invests/real','InvestsController@real')->name('real');
 
 Route::get('/invests/asset','InvestsController@asset')->name('asset');
 
-Route::get('/invests/show/{id}','InvestsController@show')->name('invest');
+Route::get('/investsshow/{id}','InvestsController@show')->name('invest');
 
 Route::get('/invests/property','InvestsController@property')->name('property');
 
@@ -66,10 +66,12 @@ Route::get('/contact/us','ContactController@index')->name('contactus');
 
 Route::get('/contact/recruit','ContactController@recruit')->name('recruit');
 
-Route::any('uploads', 'TestController@uploadImages');
 
 //合作流程
 Route::get('/cooper','CooperationController@index')->name('cooper');
 
 Route::get('/certify','CooperationController@certify')->name('certify');
 
+//图片上传
+
+Route::any('imguploads', 'ImguploadController@uploads');

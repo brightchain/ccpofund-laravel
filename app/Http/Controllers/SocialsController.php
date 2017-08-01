@@ -11,7 +11,7 @@ class SocialsController extends Controller
     //社会责任列表页
     public function index()
     {   
-    	$socials=Social::orderBy('order')->orderBy('created_at','desc')->paginate(4);
+    	$socials=Social::orderBy('order')->orderBy('updated_at','desc')->paginate(4);
     	
     	return view('social.social',compact('socials'));
     }
