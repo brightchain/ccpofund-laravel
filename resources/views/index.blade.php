@@ -109,11 +109,11 @@
                                 <div class="row c-bg-gray"> 
                                     <div class="col-sm-6">
                                         <div class="c-tile-content c-content-overlay">
-                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(upload/{{$new->thumbs}}); height: 325px;"></div>
+                                            <div class="c-image c-overlay-object c-image-hover" data-height="height" style="background-image: url(upload/{{$new->thumbs}}); height: 325px;"></div>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
-                                        <div class="c-tile-content c-content-v-center" data-height="height" style="height: 325px;">
+                                        <div class="c-tile-content c-content-v-center " data-height="height" style="height: 325px;">
                                             <div class="c-wrapper">
                                                 <div class="c-body">
                                                     <h3>{{$new->title}}</h3>
@@ -135,7 +135,7 @@
                                 <div class="row c-bg-gray"> 
                                     <div class="col-sm-6 ">
                                         <div class="c-tile-content c-content-overlay">
-                                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(upload/{{$social->thumbnail}}); height: 325px;"></div>
+                                            <div class="c-image c-overlay-object c-image-hover" data-height="height" style="background-image: url(upload/{{$social->thumbnail}}); height: 325px;"></div>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 ">
@@ -165,8 +165,8 @@
                     
                         <div class="col-md-8">
                              <div class="row">  
-                            <div class="c-content-media-2-slider" data-slider="owl">
-                            <div class="c-image c-overlay-object" data-height="height" style="background-image: url(/img/company.jpg); height: 350px;"></div>
+                            <div class="c-content-media-2-slider c-image-hidden" data-slider="owl">
+                            <div class="c-image c-overlay-object c-image-hover" data-height="height" style="background-image: url(/img/company.jpg); height: 350px;"></div>
                             </div>
                             </div>
                         </div>

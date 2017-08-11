@@ -16,8 +16,10 @@
 		               	    <span style="background-image: url(../img/home.png);"></span>
 							<a href="{{route('company')}}">关于传承</a>
 						</div>
-	               	    @section('menu-left')
-	               	    @show
+	               	    <div class="c-menu-left-img">
+		<span style="background-image: url(../img/arrows.png);"></span>
+   	    <a href="">{{$about->title}}</a>
+    </div>
 	               	</div>
                </div>
                <div class="col-md-6">

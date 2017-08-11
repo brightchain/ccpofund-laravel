@@ -38,14 +38,23 @@
 	        </h3>
 	    </li>  
 	</ul>   -->              
-	<ul>
+	<ul class="cases-show">
 		@foreach($invest11 as $invest)
+		
 		<li class="c-invest-case"> 
-	        <img src="http://www.ccpofund.com/upload/{{$invest->img}}" alt="" class="img-responsive">
-	        <h3>
-		        <a href="{{route('invest',$invest->id)}}">{{$invest->title}}</a>
-	        </h3>
+              <a href="{{route('invest',$invest->id)}}">
+              <div class="case-show-img">
+              	<img src="http://www.ccpofund.com/upload/{{$invest->img}}" alt="" class="img-responsive">
+              </div>
+	        
+	        <div class="c-invest-bottom">
+	        	
+		        {{$invest->title}}
+	        
+	        </div>
+	         </a>
 	    </li>  
+	   
 	    @endforeach
 	</ul>
 

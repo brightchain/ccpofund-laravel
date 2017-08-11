@@ -17,7 +17,8 @@
 	        <p class="t-color-gray t-font-12">{{strip_tags(str_limit($first['content'],200))}}</p>
     	</div>
     	<div class="col-sm-4">
-    		<img src="../upload/{{$first['thumbs']}}" alt="" class="img-responsive">
+    	<a href="{{route('indushow',$first['id'])}}">
+    		<img src="../upload/{{$first['thumbs']}}" alt="" class="img-responsive"></a>
     	</div>
     </div>
     <ul class="new-each">

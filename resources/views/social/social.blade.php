@@ -69,7 +69,8 @@
                             <li style="padding: 20px 0;margin-bottom: 20px;">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img src="../upload/{{$social->thumbnail}}" alt="" class="img-responsive">
+                                    <a href="{{url('socials',$social->id)}}">
+                                        <img src="../upload/{{$social->thumbnail}}" alt="" class="img-responsive"></a>
                                     </div>
                                     <div class="com-md-9">
                                         <h3 class="c-social-date">{{$social->updated_at->format('Y-m-d')}}</h3>
