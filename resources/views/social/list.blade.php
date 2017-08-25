@@ -45,7 +45,7 @@
                         </div>
                      	<div class="c-menu-left-img">
                             <span style="background-image: url(../img/arrows.png);"></span>
-                            <a href="{{route('socials')}}">社会责任</a>
+                            <a href="{{route('socials')}}" class="nav-active">社会责任</a>
                         </div>
                    	</div>
                 </div>
@@ -63,7 +63,7 @@
         <div class="container" >
             <div class="col-md-12" >
                 <div class="row" style="border-top: 1px solid #c9caca;">   
-                    <div class="c-text-content">
+                    <div class="c-text-content c-width-860">
                         <div class="c-title-center">
                             <h1>{{$socials->title}}</h1>
                             <p>{{$socials->created_at}}</p>

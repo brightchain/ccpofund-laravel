@@ -51,32 +51,32 @@
         <!--[if lt IE 9]>
     <script src="http://localhost/assets/global/plugins/excanvas.min.js"></script> 
     <![endif]-->
-        <script src="http://www.ccpofund.com/js/jquery.min.js" type="text/javascript"></script>
-        <!-- <script src="http://www.ccpofund.com/js/jquery-migrate.min.js" type="text/javascript"></script> -->
-        <script src="http://www.ccpofund.com/js/bootstrap.min.js" type="text/javascript"></script>
-        <!-- <script src="http://www.ccpofund.com/js/jquery.easing.min.js" type="text/javascript"></script> -->
-        <script src="http://www.ccpofund.com/js/wow.js" type="text/javascript"></script>
-        <!-- <script src="http://www.ccpofund.com/js/reveal-animate.js" type="text/javascript"></script> -->
+        <script src="/js/jquery.min.js" type="text/javascript"></script>
+        <!-- <script src="/js/jquery-migrate.min.js" type="text/javascript"></script> -->
+        <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- <script src="/js/jquery.easing.min.js" type="text/javascript"></script> -->
+        <script src="/js/wow.js" type="text/javascript"></script>
+        <!-- <script src="/js/reveal-animate.js" type="text/javascript"></script> -->
         <!-- END: CORE PLUGINS -->
         <!-- BEGIN: LAYOUT PLUGINS -->
-         <script src="http://www.ccpofund.com/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-        <script src="http://www.ccpofund.com/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script> 
-        <script src="http://www.ccpofund.com/js/revolution.extension.slideanims.min.js" type="text/javascript"></script>
-        <script src="http://www.ccpofund.com/js/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
-        <script src="http://www.ccpofund.com/js/revolution.extension.navigation.min.js" type="text/javascript"></script>
-        <script src="http://www.ccpofund.com/js/revolution.extension.video.min.js" type="text/javascript"></script>
-        <script src="http://www.ccpofund.com/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
-        <!-- <script src="http://www.ccpofund.com/js/owl.carousel.min.js" type="text/javascript"></script> -->
-        <!-- <script src="http://www.ccpofund.com/js/jquery.waypoints.min.js" type="text/javascript"></script> -->
-        <script src="http://www.ccpofund.com/js/jquery.counterup.min.js" type="text/javascript"></script>
-        <script src="http://www.ccpofund.com/js/jquery.fancybox.pack.js" type="text/javascript"></script>
-        <!-- <script src="http://www.ccpofund.com/js/jquery.smooth-scroll.js" type="text/javascript"></script> -->
-        <script src="http://www.ccpofund.com/js/bootstrap-slider.js" type="text/javascript"></script>
+         <script src="/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+        <script src="/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script> 
+        <script src="/js/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+        <script src="/js/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+        <script src="/js/revolution.extension.navigation.min.js" type="text/javascript"></script>
+        <script src="/js/revolution.extension.video.min.js" type="text/javascript"></script>
+        <script src="/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+        <!-- <script src="/js/owl.carousel.min.js" type="text/javascript"></script> -->
+        <!-- <script src="/js/jquery.waypoints.min.js" type="text/javascript"></script> -->
+        <script src="/js/jquery.counterup.min.js" type="text/javascript"></script>
+        <script src="/js/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <!-- <script src="/js/jquery.smooth-scroll.js" type="text/javascript"></script> -->
+        <script src="/js/bootstrap-slider.js" type="text/javascript"></script>
         <!-- END: LAYOUT PLUGINS -->
         <!-- BEGIN: THEME SCRIPTS -->
-        <script src="http://www.ccpofund.com/js/components.js" type="text/javascript"></script>
-        <!-- <script src="http://www.ccpofund.com/js/components-shop.js" type="text/javascript"></script> -->
-        <script src="http://www.ccpofund.com/js/app.js" type="text/javascript"></script>
+        <script src="/js/components.js" type="text/javascript"></script>
+        <!-- <script src="/js/components-shop.js" type="text/javascript"></script> -->
+        <script src="/js/app.js" type="text/javascript"></script>
         <script>
             $(document).ready(function()
             {

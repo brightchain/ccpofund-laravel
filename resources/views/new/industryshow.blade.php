@@ -3,7 +3,7 @@
 
     @section('banner')
     <div class="c-subtitle c-fonts-uppercase c-fonts-bold c-bg-img-center" >
-      <img src="http://www.ccpofund.com/img/social.jpg" alt="Image-1" width="100%" height="auto">
+      <img src="http://www.ccpofund.com/img/newsbj.jpg" alt="Image-1" width="100%" height="auto">
     </div>       
     @stop
     @section('content')
@@ -14,11 +14,11 @@
                    	<div class="row c-menu-left">
                      	<div class="c-menu-left-img">
                             <span style="background-image: url(http://www.ccpofund.com/img/home.png);"></span>
-                     	    <a href="{{url('/')}}">首页</a>
+                     	    <a href="{{url('/')}}">新闻中心</a>
                         </div>
                      	<div class="c-menu-left-img">
                             <span style="background-image: url(http://www.ccpofund.com/img/arrows.png);"></span>
-                            <a href="{{route('inheritance')}}">新闻中心</a>
+                            <a href="{{route('inheritance')}}" class="nav-active">行业资讯</a>
                         </div>
                    	</div>
                 </div>
@@ -36,7 +36,7 @@
         <div class="container" >
             <div class="col-md-12" >
                 <div class="row" style="border-top: 1px solid #c9caca;">   
-                    <div class="c-text-content">
+                    <div class="c-text-content c-width-860" >
                         <div class="c-title-center">
                             <h1>{{$news->title}}</h1>
                             <p>{{$news->created_at}}</p>

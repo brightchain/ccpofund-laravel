@@ -2,7 +2,7 @@
 @section('menu-left')
 	<div class="c-menu-left-img">
 		<span style="background-image: url(../img/arrows.png);"></span>
-   	    <a href="{{route('inheritance')}}">传承动态</a>
+   	    <a href="{{route('inheritance')}}"  class="nav-active">传承动态</a>
     </div>
 @stop
 @section('text-content')
@@ -43,7 +43,7 @@
 	                    </a>
 	                </h3>
 		            <p class="t-color-gray t-font-12">
-		                {{strip_tags(str_limit($new->content,200))}}
+		                {{str_limit(str_replace(PHP_EOL, '', strip_tags($new->content)),150)}}
 		            </p>
 		    	</div>
 		    </div> 

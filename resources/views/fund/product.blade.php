@@ -14,17 +14,19 @@
 	               	<div class="row c-menu-left">
 	               	    <div class="c-menu-left-img">
 		               	    <span style="background-image: url(http://www.ccpofund.com/img/home.png);"></span>
-							<a href="{{route('funds')}}">{{$title}}</a>
+							<a href="{{route('funds')}}">基金管理</a>
 						</div>
-	               	    @section('menu-left')
-	               	    @show
+	               	    <div class="c-menu-left-img">
+                        <span style="background-image: url(/img/arrows.png);"></span>
+              <a href="{{route('funds')}}" class="nav-active">{{$title}}</a>
+            </div>
 	               	</div>
                </div>
                <div class="col-md-6">
                	<div class="row">
                		<div class="c-menu-right">
-               			<span><a href="{{route('issues')}}">基金概况</a></span>
-               			<span><a href="{{route('funds')}}">基金产品</a></span>
+               			<span><a href="{{route('issues')}}" class="{{ Request::is('*issues*') ? 'nav-active' : '' }}">基金概况</a></span>
+                    <span><a href="{{route('funds')}}" class="{{ Request::is('*funds') ? 'nav-active' : '' }}">基金产品</a></span>
                			
                		</div>
                	</div>

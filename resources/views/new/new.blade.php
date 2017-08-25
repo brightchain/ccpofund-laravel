@@ -50,8 +50,8 @@
                <div class="col-md-6">
                	<div class="row">
                		<div class="c-menu-right">
-               			<span><a href="{{route('inheritance')}}">传承动态</a></span>
-               			<span><a href="{{route('industry')}}">行业资讯</a></span>           			
+               			<span><a href="{{route('inheritance')}}" class="{{ Request::is('*chuan*') ? 'nav-active' : '' }}">传承动态</a></span>
+               			<span><a href="{{route('industry')}}" class="{{ Request::is('*industry*') ? 'nav-active' : '' }}">行业资讯</a></span>           			
                		</div>
                	</div>
               </div>

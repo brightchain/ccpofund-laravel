@@ -3,7 +3,7 @@
 
     @section('banner')
     <div class="c-subtitle c-fonts-uppercase c-fonts-bold c-bg-img-center" >
-    <img src="http://www.ccpofund.com/img/investbj.jpg" alt="Image-1" width="100%" height="auto">
+    <img src="/img/investbj.jpg" alt="Image-1" width="100%" height="auto">
             </div>
     @stop
     @section('content')
@@ -23,11 +23,11 @@
                <div class="col-md-6">
                	<div class="row">
                		<div class="c-menu-right">
-               			<span><a href="{{route('property')}}">存量物业并购</a></span>
-               			<span><a href="{{route('urban')}}">城市更新</a></span>
-                        <span><a href="{{route('asset')}}">资产管理</a></span>
-                        <span><a href="{{route('real')}}">地产开发</a></span>
-                        <span><a href="{{route('cases')}}">成功案例</a></span>
+               			<span><a href="{{route('property')}}" class="{{ Request::is('*property*') ? 'nav-active' : '' }}">存量物业并购</a></span>
+               			<span><a href="{{route('urban')}}" class="{{ Request::is('*urban*') ? 'nav-active' : '' }}">城市更新</a></span>
+                    <span><a href="{{route('asset')}}" class="{{ Request::is('*asset*') ? 'nav-active' : '' }}">资产管理</a></span>
+                    <span><a href="{{route('real')}}" class="{{ Request::is('*real*') ? 'nav-active' : '' }}">地产开发</a></span>
+                    <span><a href="{{route('cases')}}" class="{{ Request::is('*cases*') ? 'nav-active' : '' }}">成功案例</a></span>
                			
                		</div>
                	</div>

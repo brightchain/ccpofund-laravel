@@ -2,7 +2,7 @@
 @section('menu-left')
 	<div class="c-menu-left-img">
 		<span style="background-image: url(http://www.ccpofund.com/img/arrows.png);"></span>
-   	    <a href="{{route('real')}}">{{$title}}</a>
+   	    <a href="{{route('real')}}" class="nav-active">{{$title}}</a>
     </div>
 @stop
 @section('text-content')

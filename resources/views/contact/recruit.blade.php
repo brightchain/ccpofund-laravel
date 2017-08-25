@@ -2,7 +2,7 @@
 @section('menu-left')
 	<div class="c-menu-left-img">
 		<span style="background-image: url(../img/arrows.png);"></span>
-   	    <a href="{{route('contactus')}}">{{$title}}</a>
+   	    <a href="{{route('contactus')}}" class="nav-active">{{$title}}</a>
     </div>
 @stop
 @section('text-content')
@@ -88,7 +88,7 @@
 @foreach($recruit as $recruit)
     <li style="padding-bottom: 25px;">
     @if($recruit->status==1)
-        <h3 style="background-color: #c3222c;color: #fff;font-size: 14.58px;line-height: 37.5px;padding-left: 30px;">{{$recruit->title}}</h3>
+        <h3 style="background-color: #ea5504;color: #fff;font-size: 14.58px;line-height: 37.5px;padding-left: 30px;">{{$recruit->title}}</h3>
         @else
         <h3 style="background-color: #c9caca;color: #fff;font-size: 14.58px;line-height: 37.5px;padding-left: 30px;">{{$recruit->title}}</h3>
         @endif

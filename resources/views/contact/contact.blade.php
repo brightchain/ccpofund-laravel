@@ -24,9 +24,9 @@
                	<div class="row">
                		<div class="c-menu-right">
                			<span>
-                            <a href="{{route('contactus')}}">联系我们</a></span>
+                            <a href="{{route('contactus')}}" class="{{ Request::is('*us*') ? 'nav-active' : '' }}">联系我们</a></span>
                			<span>
-                            <a href="{{route('recruit')}}">招贤纳士</a></span>
+                            <a href="{{route('recruit')}}" class="{{ Request::is('*recruit*') ? 'nav-active' : '' }}">招贤纳士</a></span>
                		</div>
                	</div>
               </div>

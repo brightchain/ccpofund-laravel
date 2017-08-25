@@ -1,8 +1,8 @@
 @extends('about.about')
 @section('menu-left')
 	<div class="c-menu-left-img">
-		<span style="background-image: url(../img/arrows.png);"></span>
-   	    <a href="">{{$about->title}}</a>
+		<span style="background-image: url(/img/arrows.png);"></span>
+   	    <a href="" class="nav-active">{{$about->title}}</a>
     </div>
 @stop
 @section('text-content')

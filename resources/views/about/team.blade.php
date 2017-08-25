@@ -1,8 +1,8 @@
 @extends('about.about')
 @section('menu-left')
 	<div class="c-menu-left-img">
-		<span style="background-image: url(../img/arrows.png);"></span>
-   	    <a href="">{{$title}}</a>
+		<span style="background-image: url(/img/arrows.png);"></span>
+   	    <a href="" class="nav-active">{{$title}}</a>
     </div>
 @stop
 @section('text-content')
@@ -10,7 +10,7 @@
 @foreach($team as $team)
     <div class="clearfix" style="padding-top: 20px;">
         <div class="c-img-fr imghover">
-            <img src="../upload/{{$team->thumbs}}" alt="" class="img-responsive" >
+            <img src="/upload/{{$team->thumbs}}" alt="" class="img-responsive" >
         </div>
         <div  class="c-img-fl">        
             <h3>{{$team->name}}  {{$team->position}}</h3>

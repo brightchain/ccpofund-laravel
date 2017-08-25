@@ -104,7 +104,7 @@
                     <div class="row">
                         <div class="col-md-6 ">
                             <div class="c-content-tile-1 ">
-                            <h3 class="c-font-uppercase c-center">传承动态</h3>
+                            <h3 class="c-font-uppercase c-center"><a href="{{route('inheritance')}}">传承动态</a></h3>
                                 <div class="c-line-center"></div>
                                 <div class="row c-bg-gray"> 
                                     <div class="col-sm-6">
@@ -118,7 +118,7 @@
                                                 <div class="c-body">
                                                     <h3>{{$new->title}}</h3>
                                                     <p style="padding-top: 10px;font-size: 13px;line-height: 22px;">
-                                                        {{strip_tags(str_limit($new->content,400))}}
+                                                        {{str_limit(strip_tags($new->content),150)}}
                                                     </p>
                                                     <div style="text-align: right;"><a href="{{route('show',$new->id)}}" style="font-size: 13px;">更多》》</a></div>
                                                 </div>
@@ -130,7 +130,7 @@
                         </div>
                         <div class="col-md-6 ">
                             <div class="c-content-tile-1 ">
-                            <h3 class="c-font-uppercase c-center">社会责任</h3>
+                            <h3 class="c-font-uppercase c-center"><a href="{{route('industry')}}">社会责任</a></h3>
                                 <div class="c-line-center"></div>
                                 <div class="row c-bg-gray"> 
                                     <div class="col-sm-6 ">
@@ -144,7 +144,7 @@
                                                 <div class="c-body">
                                                     <h3>{{$social->title}}</h3>
                                                     <p style="padding-top: 10px;font-size: 13px;line-height: 22px;">
-                                                        {{strip_tags(str_limit($social->content,400))}}
+                                                        {{str_limit(strip_tags($social->content),150)}}
                                                     </p>
                                                     <div style="text-align: right;"><a href="{{route('socialsshow',$social->id)}}" style="font-size: 13px;">更多》》</a></div>
                                                 </div>
