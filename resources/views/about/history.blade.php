@@ -18,7 +18,7 @@
 						</div>
 	               	    <div class="c-menu-left-img">
 		<span style="background-image: url(/img/arrows.png);"></span>
-   	    <a href="" class="nav-active">{{$about->title}}</a>
+   	    <a href="" class="nav-active">{{$title}}</a>
     </div>
 	               	</div>
                </div>
@@ -39,7 +39,44 @@
     <div class="c-content-box c-bg-white" style="">
         <div class="container" style="padding:30px;border-top:1px solid #ccc;" >
             
-            {!!$about->content!!}
+            
+            <div class="timeline">
+                <div class="timelinetop">
+                       <img src="/img/icon9.png" alt="">
+                </div>
+                <div class="timelinecontent">
+                @foreach($history as $history)
+                  @if($loop->index%2==0)
+                  <dl>
+                    <dt>
+                      <h2>{{$history->title}}</h2>
+                      {!!$history->cases!!}
+                    </dt>
+                    <dd>
+                      <img src="/upload/{{$history->thumbs}}" alt="{{$history->title}}">
+                      <h3>{{$history->thumbsdes}}</h3>
+                    </dd> 
+                  </dl>
+                  @else
+                  <dl class="right">
+                    <dt>
+                      <h2>{{$history->title}}</h2>
+                      {!!$history->cases!!}
+                    </dt>
+                    <dd>
+                      <img src="/upload/{{$history->thumbs}}" alt="{{$history->title}}">
+                      <h3>{{$history->thumbsdes}}</h3>
+                    </dd> 
+                  </dl>
+                  @endif
+                  @endforeach
+                  
+                
+                  
+                </div>
+           </div>
+           {!!$about->content!!}
+          
         </div>       
     </div>
     @stop

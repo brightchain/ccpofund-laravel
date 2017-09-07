@@ -78,6 +78,17 @@ var App = function() {
        });       
     }
 
+    //时间轴
+    var timeline=function(){
+        
+        $timeline=$('.timelinecontent').children('dl').length;
+        $timeheight=$timeline*250;
+        
+  $(".timelinecontent").eq(0).animate({
+    height:$timeheight
+  },3000);
+}
+
     // handle the layout reinitialization on window resize
     var handleOnResize = function() {
         var resize;
@@ -291,6 +302,7 @@ var App = function() {
             //IMPORTANT!!!: Do not modify the core handlers call order.
             navActive();
             productnav();
+            timeline();
             //Core handlers
             handleHeight();
             this.addResizeHandler(handleHeight); // handle auto calculating height on window resize

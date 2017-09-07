@@ -20,5 +20,6 @@ Route::group([
     $router->resource('invents', InventsController::class);
     $router->resource('recruit', RecruitController::class);
     $router->resource('silde', SildeController::class);
+    $router->resource('history', HistoryController::class);
 
 });

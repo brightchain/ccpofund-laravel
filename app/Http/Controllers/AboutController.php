@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Model\Menu;
+use App\Model\History;
 use App\Model\Team;
 use Illuminate\Http\Request;
 
@@ -49,8 +50,10 @@ class AboutController extends Controller
     public function history()
     {
         $about=Menu::where('name','history')->first();
+        $history=History::all();
+        
         $title=$about->title;
-        return view('about.history',compact('about','title'));
+        return view('about.history',compact('about','title','history'));
     }
 
     //法律申明
