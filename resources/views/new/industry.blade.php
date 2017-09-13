@@ -6,19 +6,18 @@
     </div>
 @stop
 @section('text-content')
-    <div class="row" style="border-bottom: 1px solid #ccc">
+ <div class="row" style="border-bottom: 1px solid #ccc;height: 133PX;overflow: hidden;">
+        <div class="col-sm-4">
+    	<a href="{{route('indushow',$first['id'])}}">
+    		<img src="../upload/{{$first['thumbs']}}" alt="" class="img-responsive" style="height: 123px;width: 100%"></a>
+    	</div>
     	<div class="col-sm-8">
-    		<h3 class="c-news-date">{{date_format($first['updated_at'],'M d,Y')}}</h3>
 	        <h3 class="c-news-title">
 		        <a href="{{route('indushow',$first['id'])}}">
 		        	{{$first['title']}}
 		        </a>
 	        </h3>
 	        <p class="t-color-gray t-font-12">{{strip_tags(str_limit($first['content'],200))}}</p>
-    	</div>
-    	<div class="col-sm-4">
-    	<a href="{{route('indushow',$first['id'])}}">
-    		<img src="../upload/{{$first['thumbs']}}" alt="" class="img-responsive"></a>
     	</div>
     </div>
     <ul class="new-each">
