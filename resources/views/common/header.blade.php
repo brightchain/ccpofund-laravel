@@ -6,9 +6,9 @@
             <div class="c-navbar-wrapper clearfix">
                 <div class="c-brand c-pull-left">
                     <a href="#" class="c-logo">
-                        <img src="http://www.ccpofund.com/img/logo-3.png" alt="传承基金" height="47px;" class="c-desktop-logo">
-                        <img src="http://www.ccpofund.com/img/logo-3.png" alt="传承基金" height="30px;" class="c-desktop-logo-inverse">
-                        <img src="http://www.ccpofund.com/img/logo-3.png" alt="传承基金" height="30px;" class="c-mobile-logo"> </a>
+                        <img src="/img/logo-3.png" alt="传承基金" height="47px;" class="c-desktop-logo">
+                        <img src="/img/logo-3.png" alt="传承基金" height="30px;" class="c-desktop-logo-inverse">
+                        <img src="/img/logo-3.png" alt="传承基金" height="30px;" class="c-mobile-logo"> </a>
                     <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
                         <span class="c-line"></span>
                         <span class="c-line"></span>

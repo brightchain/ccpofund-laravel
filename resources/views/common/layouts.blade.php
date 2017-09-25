@@ -14,14 +14,14 @@
     <meta name="keywords" content="传承基金,传承财富,深圳传承基金,深圳传承基金管理管理有限公司,物业并购基金,房地产私募基金,深圳基金公司" />
     <meta name="description" content="深圳传承基金管理管理有限公司" />
     <meta content="" name="author" />  
-      <link href="../css/bootstrap-social.css" rel="stylesheet" type="text/css" />
-    <link href="../css/font-awesome.min.css"" rel="stylesheet" type="text/css" />
-    <link href="../css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+      <link href="/css/bootstrap-social.css" rel="stylesheet" type="text/css" />
+    <link href="/css/font-awesome.min.css"" rel="stylesheet" type="text/css" />
+    <link href="/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
     <!-- <link href="../css/animate.min.css" rel="stylesheet" type="text/css" /> -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN: BASE PLUGINS  -->
-    <link href="../css/settings.css" rel="stylesheet" type="text/css" />
+    <link href="/css/settings.css" rel="stylesheet" type="text/css" />
     <!-- <link href="../css/layers.css" rel="stylesheet" type="text/css" /> -->
     <!-- <link href="../css/navigation.css" rel="stylesheet" type="text/css" /> -->
     <!-- <link href="../css/cubeportfolio.min.css" rel="stylesheet" type="text/css" /> -->
@@ -33,9 +33,9 @@
     <!-- <link href="../css/ilightbox.css" rel="stylesheet" type="text/css" /> -->
     <!-- END: PAGE STYLES -->
     <!-- BEGIN THEME STYLES -->
-    <link href="../css/plugins.css" rel="stylesheet" type="text/css" />
-    <link href="../css/components.css" id="style_components" rel="stylesheet" type="text/css" />
-    <link href="../css/default.css" rel="stylesheet" id="style_theme" type="text/css" />
+    <link href="/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
+    <link href="/css/default.css" rel="stylesheet" id="style_theme" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico" />
 
     <body class="c-layout-header-fixed c-layout-header-mobile-fixed">

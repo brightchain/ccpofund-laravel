@@ -86,7 +86,7 @@
         </script>
         <!-- END: THEME SCRIPTS -->
         <!-- BEGIN: PAGE SCRIPTS -->
-        <script src="http://www.ccpofund.com/js/slider-4.js" type="text/javascript"></script>
+        <script src="/js/slider-4.js" type="text/javascript"></script>
         <!-- <script src="http://www.ccpofund.com/js/isotope.pkgd.min.js" type="text/javascript"></script> -->
         <!-- <script src="http://www.ccpofund.com/js/imagesloaded.pkgd.min.js" type="text/javascript"></script> -->
         <!-- <script src="http://www.ccpofund.com/js/packery-mode.pkgd.min.js" type="text/javascript"></script> -->
@@ -94,7 +94,7 @@
         <!-- <script src="http://www.ccpofund.com/js/jquery.mousewheel.js" type="text/javascript"></script> -->
         <!-- <script src="http://www.ccpofund.com/js/ilightbox.packed.js" type="text/javascript"></script> -->
         <!-- <script src="http://www.ccpofund.com/js/isotope-gallery.js" type="text/javascript"></script> -->
-        <script src="http://www.ccpofund.com/js/revolution.extension.parallax.min.js" type="text/javascript"></script>
+        <script src="/js/revolution.extension.parallax.min.js" type="text/javascript"></script>
         <!-- END: PAGE SCRIPTS -->
         <!-- END: LAYOUT/BASE/BOTTOM -->
   <!--   <script>
